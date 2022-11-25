@@ -1,0 +1,30 @@
+.header a {
+  text-decoration: none;
+  color: black;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgb(218, 215, 215);
+}
+
+.main {
+  position: absolute;
+  font-size: 40px;
+  top: 5px;
+  left: 50px;
+}
+
+.right-nav {
+  display: inline;
+  font-size: 25px;
+  position: absolute;
+  top: 65px;
+  right: 50px;
+}
+
+.right-nav a {
+  color: rgb(64, 125, 222);
+}

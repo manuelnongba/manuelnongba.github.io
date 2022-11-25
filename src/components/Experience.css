@@ -1,0 +1,18 @@
+.experience {
+  margin-top: 100px;
+  background-color: rgb(246, 240, 246);
+  height: 350px;
+  width: 500px;
+  margin-left: 450px;
+  padding: 40px 40px;
+}
+
+.experience img {
+  width: 100px;
+  height: 100;
+}
+
+li {
+  list-style-position: inside;
+  list-style-type: square;
+}

@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(246, 246, 246);
+}
+.container {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 120px;
+}
+
+.home-container {
+  margin-top: 80px;
+}
+
+.about {
+  margin: 0 150px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: "Quicksand", sans-serif;
+  width: 600px;
+  text-align: center;
+  margin-left: 450px;
+  text-align: justify;
+  background-color: rgb(246, 240, 246);
+  padding: 20px 20px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+}
+
+.about img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 150px;
+  top: 110px;
+}
+
+.images img {
+  height: 55px;
+  width: 55px;
+  margin-right: 10px;
+}
+
+.stack-header {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+.contact {
+  margin-bottom: 80px;
+}
+
+.contact a {
+  margin: 0 20px;
+}
+
+.stack {
+  margin-bottom: 100px;
+}
