@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import AnimatedRoutes from "./AnimatedRoutes";
 import Footer from "./footer";
 import Header from "./Header";
@@ -7,13 +7,13 @@ import Header from "./Header";
 const App = () => {
   return (
     <div className="container">
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Header />
           <AnimatedRoutes />
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
