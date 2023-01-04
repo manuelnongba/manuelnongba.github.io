@@ -12,7 +12,10 @@ const Research = () => {
     >
       <section>
         <div>
-          <img src="./img/research.png" alt="pharmacy research" />
+          <img
+            src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807379/research_f7y41r.png"
+            alt="pharmacy research"
+          />
           <p>
             This project is insight into the design and implementation of a
             Pharmaceutical Suite. The primary aim of is to improve working
@@ -24,7 +27,7 @@ const Research = () => {
         </div>
         <div className="research-intro">
           <img
-            src="./img/research2.png"
+            src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807378/research2_xbdahu.png"
             alt="pharmacy research"
             className="research-intro"
           />
@@ -36,7 +39,10 @@ const Research = () => {
           </p>
         </div>
         <div className="research-intro">
-          <img src="./img/research3.png" alt="pharmacy research" />
+          <img
+            src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807378/research3_ysxqng.png"
+            alt="pharmacy research"
+          />
         </div>
       </section>
     </motion.div>
