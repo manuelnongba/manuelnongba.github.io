@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import AnimatedRoutes from "./AnimatedRoutes";
+import Footer from "./footer";
 import Header from "./Header";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <div>
           <Header />
           <AnimatedRoutes />
+          <Footer />
         </div>
       </BrowserRouter>
     </div>

@@ -1,10 +1,13 @@
 .experience {
-  margin-top: 100px;
-  background-color: rgb(246, 240, 246);
-  height: 350px;
-  width: 500px;
-  margin-left: 450px;
+  background-color: #dbe4ff;
+  height: 450px;
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
   padding: 40px 40px;
+  border: 1px solid #dbe4ff;
+  border-radius: 10px;
+  line-height: 1.8;
 }
 
 .experience img {
@@ -15,4 +18,5 @@
 li {
   list-style-position: inside;
   list-style-type: square;
+  line-height: 1.8;
 }

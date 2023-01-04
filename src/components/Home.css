@@ -1,10 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(246, 246, 246);
 }
+
 .container {
-  text-align: center;
   font-family: "Quicksand", sans-serif;
-  margin-top: 120px;
 }
 
 .home-container {
@@ -12,19 +17,20 @@ body {
 }
 
 .about {
-  margin: 0 150px;
-  margin-top: 0px;
-  margin-bottom: 50px;
+  margin: 100 150px;
   font-family: "Quicksand", sans-serif;
   width: 600px;
   text-align: center;
   margin-left: 450px;
   text-align: justify;
-  background-color: rgb(246, 240, 246);
+  background-color: #e9ecef;
   padding: 20px 20px;
   font-size: 18px;
   letter-spacing: 0.5px;
   font-weight: bolder;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .about img {
@@ -32,30 +38,88 @@ body {
   height: 250px;
   position: absolute;
   left: 150px;
-  top: 110px;
+  top: 200px;
 }
 
 .images img {
-  height: 55px;
-  width: 55px;
+  height: 60px;
+  width: 60px;
   margin-right: 10px;
 }
 
 .stack-header {
   font-weight: bold;
   font-size: 30px;
-  margin: 20px 0;
-  margin-bottom: 40px;
 }
 
-.contact {
-  margin-bottom: 80px;
+.images-contact {
+  margin: 80px 80px;
+
+  display: flex;
+  align-items: flex-end;
 }
 
-.contact a {
+.images-contact img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.images-contact a:link {
   margin: 0 20px;
+  text-decoration: none;
+}
+
+.images-contact span {
+  color: black;
+  font-size: 20px;
+
+  margin: 10px 10px;
 }
 
 .stack {
   margin-bottom: 100px;
+  max-width: 1000px;
+  margin: 100px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.stack-images {
+  width: 450px;
+  margin: 100px auto;
+  height: 390px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 130px);
+  align-items: center;
+  justify-items: center;
+}
+
+.stack-images .deep-purple {
+  background-color: #5d4dac;
+  height: 130px;
+  width: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack-images .light-purple {
+  background-color: #865ff6;
+  height: 130px;
+  width: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack-images p {
+  font-size: 12px;
 }

@@ -1,9 +1,26 @@
-.project1 {
-  margin-top: 100px;
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
 }
 
-.project1 img {
-  width: 800px;
-  height: 500px;
-  margin-right: 500px;
+.projects img {
+  width: 700px;
+  height: 450px;
+  border: 1px solid rgb(236, 234, 234);
+  border-radius: 16px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  gap: 80px;
+}
+
+.project-description p {
+  width: 500px;
 }
