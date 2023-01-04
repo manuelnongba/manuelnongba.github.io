@@ -14,7 +14,11 @@ const Projects = () => {
     >
       <div className="project">
         <img
-          src={open ? "../img/pharma.gif" : "../img/pharma.png"}
+          src={
+            open
+              ? "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/pharma_y0s6wk.gif"
+              : "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/pharma_ua2ll7.png"
+          }
           alt="Multi Explore Project"
           onMouseOver={() => setOpen(true)}
           onMouseOut={() => setOpen(false)}
@@ -29,7 +33,10 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <img src="../img/gojek.png" alt="gojek" />
+        <img
+          src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807322/gojek_pelvtu.jpg"
+          alt="gojek"
+        />
         <div className="project-description">
           <h2>Gojek UI</h2>
           <p>
@@ -40,7 +47,11 @@ const Projects = () => {
       </div>
       <div className="project">
         <img
-          src={open ? "../img/multigif.gif" : "../img/multi.png"}
+          src={
+            open
+              ? "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807377/multigif_nzbxm5.gif"
+              : "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/multi_x7ukof.jpg"
+          }
           alt="Multi Explore Project"
           onMouseOver={() => setOpen(true)}
           onMouseOut={() => setOpen(false)}

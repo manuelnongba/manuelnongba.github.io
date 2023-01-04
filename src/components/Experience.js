@@ -14,7 +14,10 @@ const Experience = () => {
       <p>IT and Software Engineer</p>
       <p>Accra, Ghana</p>
       <p>Sept 2020 - Jan 2022</p>
-      <img src="../img/coa.svg.png" alt="Judicial Service logo" />
+      <img
+        src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807312/coa.svg_eiiosd.png"
+        alt="Judicial Service logo"
+      />
       <ul>
         <li>
           {" "}

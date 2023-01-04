@@ -15,43 +15,73 @@ const Home = () => {
         Redux, NodeJS(Express) and MongoDB whenever I am working on a project. I
         love writing readable and reusable code. Oh , I also try to solve
         leetcode problems for fun 😀.
-        <img src="../img/me.png" alt="my bitmoji" />
+        <img
+          src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/me_btepdb.png"
+          alt="my bitmoji"
+        />
       </div>
       <div className="stack">
         <div className="stack-header">languages and libraries</div>
         <div className="stack-images images">
           <div className="deep-purple">
-            <img src="../img/js.svg" alt="javascript" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807355/js_tyv6zl.svg"
+              alt="javascript"
+            />
             <p>JavaScript</p>
           </div>
           <div className="light-purple">
-            <img src="../img/react.svg" alt="react" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/react_gncl47.svg"
+              alt="react"
+            />
             <p>React</p>
           </div>
           <div className="deep-purple">
-            <img src="../img/express.svg" alt="express js" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807318/express_kxywhw.svg"
+              alt="express js"
+            />
           </div>
           <div className="light-purple">
-            <img src="../img/mongodb.svg" alt="mongo" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/mongodb_orsdge.svg"
+              alt="mongo"
+            />
             <p>MongoDB</p>
           </div>
           <div className="deep-purple">
-            <img src="../img/html5.svg" alt="html5" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807324/html5_z63blp.svg"
+              alt="html5"
+            />
           </div>
           <div className="light-purple">
-            <img src="../img/python.svg" alt="postman" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/python_gk277n.svg"
+              alt="postman"
+            />
             <p>Python</p>
           </div>
           <div className="deep-purple">
-            <img src="../img/nodejs.svg" alt="node js" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/nodejs_twitbd.svg"
+              alt="node js"
+            />
             <p>NodeJS</p>
           </div>
           <div className="light-purple">
-            <img src="../img/css3.svg" alt="node js" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807312/css3_sue5t6.svg"
+              alt="css"
+            />
             <p>CSS3</p>
           </div>
           <div className="deep-purple">
-            <img src="../img/redux.svg" alt="node js" />
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/redux_ojxku6.svg"
+              alt="redux"
+            />
             <p>Redux</p>
           </div>
         </div>
@@ -59,19 +89,31 @@ const Home = () => {
       <div className="images-contact">
         <a href="https://github.com/manuelnongba">
           <span>github</span>
-          <img src="../img/github.svg" alt="github" />
+          <img
+            src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807319/github_kkd7de.svg"
+            alt="github"
+          />
         </a>
         <a href="https://www.linkedin.com/in/emmanuel-anongba-92469019b/">
           <span>linkedin</span>
-          <img src="../img/linkedin.svg" alt="linked in" />
+          <img
+            src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807372/linkedin_jrn0k1.svg"
+            alt="linked in"
+          />
         </a>
         <a href="https://twitter.com/eacodesimba">
           <span>twitter</span>
-          <img src="../img/twitter.svg" alt="twitter" />
+          <img
+            src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807377/twitter_dwvspp.svg"
+            alt="twitter"
+          />
         </a>
         <a href="https://dev.to/manuelnongba">
           <span>devto</span>
-          <img src="../img/devto.svg" alt="dev" />
+          <img
+            src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807314/devto_xmqavx.svg"
+            alt="dev"
+          />
         </a>
       </div>
     </motion.div>
