@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/emmanuelanongba/static/css/main.031bb1a7.css",
+    "main.js": "/emmanuelanongba/static/js/main.1e308d7b.js",
+    "index.html": "/emmanuelanongba/index.html",
+    "main.031bb1a7.css.map": "/emmanuelanongba/static/css/main.031bb1a7.css.map",
+    "main.1e308d7b.js.map": "/emmanuelanongba/static/js/main.1e308d7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.031bb1a7.css",
+    "static/js/main.1e308d7b.js"
+  ]
+}
