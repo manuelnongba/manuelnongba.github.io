@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/emmanuelanongba/static/css/main.031bb1a7.css",
-    "main.js": "/emmanuelanongba/static/js/main.8aad4512.js",
+    "main.js": "/emmanuelanongba/static/js/main.d4ad8329.js",
     "index.html": "/emmanuelanongba/index.html",
     "main.031bb1a7.css.map": "/emmanuelanongba/static/css/main.031bb1a7.css.map",
-    "main.8aad4512.js.map": "/emmanuelanongba/static/js/main.8aad4512.js.map"
+    "main.d4ad8329.js.map": "/emmanuelanongba/static/js/main.d4ad8329.js.map"
   },
   "entrypoints": [
     "static/css/main.031bb1a7.css",
-    "static/js/main.8aad4512.js"
+    "static/js/main.d4ad8329.js"
   ]
 }
