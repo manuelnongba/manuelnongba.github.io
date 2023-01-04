@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/emmanuelanongba/static/css/main.d5340c4b.css",
-    "main.js": "/emmanuelanongba/static/js/main.310d35a0.js",
-    "index.html": "/emmanuelanongba/index.html",
-    "main.d5340c4b.css.map": "/emmanuelanongba/static/css/main.d5340c4b.css.map",
-    "main.310d35a0.js.map": "/emmanuelanongba/static/js/main.310d35a0.js.map"
+    "main.css": "/static/css/main.d5340c4b.css",
+    "main.js": "/static/js/main.310d35a0.js",
+    "index.html": "/index.html",
+    "main.d5340c4b.css.map": "/static/css/main.d5340c4b.css.map",
+    "main.310d35a0.js.map": "/static/js/main.310d35a0.js.map"
   },
   "entrypoints": [
     "static/css/main.d5340c4b.css",
