@@ -13,15 +13,20 @@ body {
 }
 
 .home-container {
-  margin-top: 80px;
+  /* margin-top: 50px; */
+}
+
+.me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
 }
 
 .about {
-  margin: 100 150px;
   font-family: "Quicksand", sans-serif;
-  width: 600px;
-  text-align: center;
-  margin-left: 450px;
+  width: 650px;
+  height: 130px;
   text-align: justify;
   background-color: #e9ecef;
   padding: 20px 20px;
@@ -33,12 +38,9 @@ body {
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-.about img {
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  left: 150px;
-  top: 200px;
+.me img {
+  width: 300px;
+  height: 300px;
 }
 
 .images img {
@@ -80,7 +82,7 @@ body {
 .stack {
   margin-bottom: 100px;
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 50px auto;
 
   display: flex;
   align-items: center;
