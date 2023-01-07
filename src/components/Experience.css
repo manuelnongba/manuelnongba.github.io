@@ -1,8 +1,18 @@
+.experiences {
+  font-size: 1.4rem;
+  margin: 12rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+}
+
 .experience {
   background-color: #dbe4ff;
   height: 450px;
-  width: 600px;
-  margin: 100px auto;
+  max-width: 600px;
   text-align: center;
   padding: 40px 40px;
   border: 1px solid #dbe4ff;
@@ -13,6 +23,17 @@
 .experience img {
   width: 100px;
   height: 100;
+}
+
+.experience .yellofix {
+  font-size: 44px;
+  font-style: italic;
+  font-weight: 700;
+  color: #fab005;
+}
+
+.yellofix span {
+  color: black;
 }
 
 li {

@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
+  gap: 10rem;
 }
 
 .projects img {
-  width: 700px;
-  height: 450px;
+  width: 75rem;
+  height: 45rem;
   border: 1px solid rgb(236, 234, 234);
   border-radius: 16px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
@@ -16,11 +16,55 @@
 .project {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100px;
-  gap: 80px;
+  justify-content: space-around;
+
+  max-width: 140rem;
+  gap: 10rem;
+}
+
+.project-img {
+  max-width: 80rem;
+}
+
+.project-description {
+  font-size: 1.4rem;
+  max-width: 50rem;
 }
 
 .project-description p {
-  width: 500px;
+  margin-bottom: 50px;
+}
+
+.project a {
+  transition: all 0.5s;
+}
+
+.project a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  padding: 4px 2px;
+  border: 2px solid rgb(30, 30, 30);
+  border-radius: 16px;
+
+  max-width: 8.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project a:hover {
+  transform: scale(1.1);
+}
+
+.project .links {
+  display: flex;
+  gap: 15px;
+
+  margin-bottom: 1rem;
+}
+
+.project-description strong {
+  color: rgb(232, 103, 103);
 }

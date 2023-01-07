@@ -1,11 +1,11 @@
 .header {
-  margin: 60px auto;
+  margin: 6rem auto;
   border-bottom: 1px solid rgb(218, 215, 215);
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 300px;
+  padding: 0 4.8rem;
 }
 
 .header a {

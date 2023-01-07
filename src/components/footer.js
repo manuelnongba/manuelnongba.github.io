@@ -8,6 +8,7 @@ const Footer = () => {
         marginTop: "40px",
         padding: "20px 0",
         borderTop: "1px solid rgb(218, 215, 215)",
+        fontSize: "1.6rem",
       }}
     >
       Copyright &copy;Emmanuel Anongba 2023 All rights reserved

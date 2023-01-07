@@ -25,61 +25,63 @@ const Home = () => {
       <div className="stack">
         <div className="stack-header">languages and libraries</div>
         <div className="stack-images images">
-          <div className="deep-purple">
+          <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807355/js_tyv6zl.svg"
               alt="javascript"
             />
             <p>JavaScript</p>
           </div>
-          <div className="light-purple">
+          <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/react_gncl47.svg"
               alt="react"
             />
             <p>React</p>
           </div>
-          <div className="deep-purple">
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807318/express_kxywhw.svg"
-              alt="express js"
-            />
-          </div>
-          <div className="light-purple">
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/mongodb_orsdge.svg"
-              alt="mongo"
-            />
-            <p>MongoDB</p>
-          </div>
-          <div className="deep-purple">
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807324/html5_z63blp.svg"
-              alt="html5"
-            />
-          </div>
-          <div className="light-purple">
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/python_gk277n.svg"
-              alt="postman"
-            />
-            <p>Python</p>
-          </div>
-          <div className="deep-purple">
+          <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/nodejs_twitbd.svg"
               alt="node js"
             />
             <p>NodeJS</p>
           </div>
-          <div className="light-purple">
+
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/mongodb_orsdge.svg"
+              alt="mongo"
+            />
+            <p>MongoDB</p>
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807324/html5_z63blp.svg"
+              alt="html5"
+            />
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807318/express_kxywhw.svg"
+              alt="express js"
+            />
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/python_gk277n.svg"
+              alt="postman"
+            />
+            <p>Python</p>
+          </div>
+
+          <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807312/css3_sue5t6.svg"
               alt="css"
             />
             <p>CSS3</p>
           </div>
-          <div className="deep-purple">
+          <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/redux_ojxku6.svg"
               alt="redux"

@@ -6,7 +6,7 @@ import Header from "./Header";
 
 const App = () => {
   return (
-    <div className="container">
+    <div>
       <HashRouter>
         <div>
           <Header />

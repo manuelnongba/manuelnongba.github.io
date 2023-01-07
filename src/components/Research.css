@@ -4,20 +4,24 @@
   justify-content: center;
 }
 
-.research img {
-  width: 400px;
-  height: 500px;
+.research-img {
+  max-width: 80rem;
+}
+
+.research-cover img {
+  width: 100%;
+  height: 100%;
   margin: 100px 0;
 }
 
 .research-intro img {
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   margin: 100px 0;
 }
 
 .research p {
-  width: 900px;
+  max-width: 900px;
   text-align: center;
   font-weight: 700;
   line-height: 1.8;
