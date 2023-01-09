@@ -17,9 +17,8 @@ const Home = () => {
         />
         <div className="about">
           I am a Software Engineer well-versed in JavaScript. I like to use
-          React, Redux, NodeJS(Express) and MongoDB whenever I am working on a
-          project. I love writing readable and reusable code. Oh , I also try to
-          solve leetcode problems for fun 😀.
+          React, Redux, NodeJS(Express) and MongoDB. I love writing clean,
+          reusable code and I also try to solve leetcode problems for fun 😀.
         </div>
       </div>
       <div className="stack">
