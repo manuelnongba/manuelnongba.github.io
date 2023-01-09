@@ -87,7 +87,7 @@
     flex-direction: column;
     gap: 8rem;
 
-    padding: 10rem 10rem 0 0;
+    padding: 10rem 10rem 0 5rem;
 
     opacity: 0;
     visibility: hidden;
