@@ -77,15 +77,17 @@
   .right-nav {
     background-color: rgba(249, 249, 249, 0.968);
     position: absolute;
-    top: 10rem;
+    top: 0;
     right: 0;
     height: 100vh;
-    width: 50%;
+    width: 70%;
 
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 8rem;
+
+    padding: 10rem 10rem 0 0;
 
     opacity: 0;
     visibility: hidden;
