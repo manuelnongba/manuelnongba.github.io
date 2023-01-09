@@ -11,22 +11,22 @@
 
 .experience {
   background-color: #dbe4ff;
-  height: 450px;
-  max-width: 600px;
+
+  max-width: 60rem;
   text-align: center;
-  padding: 40px 40px;
+  padding: 4rem 4rem;
   border: 1px solid #dbe4ff;
   border-radius: 10px;
   line-height: 1.8;
 }
 
 .experience img {
-  width: 100px;
+  width: 10rem;
   height: 100;
 }
 
 .experience .yellofix {
-  font-size: 44px;
+  font-size: 4.4rem;
   font-style: italic;
   font-weight: 700;
   color: #fab005;
@@ -40,4 +40,11 @@ li {
   list-style-position: inside;
   list-style-type: square;
   line-height: 1.8;
+}
+
+@media (max-width: 26em) {
+  .experience {
+    max-width: 45rem;
+    font-size: 1.2rem;
+  }
 }

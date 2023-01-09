@@ -32,7 +32,7 @@
 }
 
 .project-description p {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .project a {
@@ -67,4 +67,26 @@ a:visited {
 
 .project-description strong {
   color: rgb(232, 103, 103);
+}
+
+@media (max-width: 59em) {
+  .projects img {
+    width: 60rem;
+    height: 30rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project-description {
+    padding: 0 4rem;
+  }
+
+  .project img {
+    width: 45rem;
+    height: 25rem;
+  }
 }
