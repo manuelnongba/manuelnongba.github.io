@@ -17,7 +17,7 @@ const Experience = () => {
         <p>Oct 2021 - Sept 2022</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1673743783/jdl_uxk08n.jpg"
-          alt="Judicial Service logo"
+          alt="Jaskosdata Limited"
         />
         <ul>
           <li>
