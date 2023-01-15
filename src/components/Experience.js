@@ -11,10 +11,34 @@ const Experience = () => {
       exit={{ opacity: 0 }}
     >
       <div className="experience">
+        <h3>Jaskosdata Limited</h3>
+        <p>Full-Stack Engineer</p>
+        <p>Tema, Ghana</p>
+        <p>Oct 2021 - Sept 2022</p>
+        <img
+          src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1673743783/jdl_uxk08n.jpg"
+          alt="Judicial Service logo"
+        />
+        <ul>
+          <li>
+            Architected and implemented organizations and projects UX with
+            advanced permissioning based on user feedback.
+          </li>
+          <li>
+            Implemented a successful redesign of apps working closely with
+            product design.
+          </li>
+          <li>
+            Collaborate with cross-functional teams to improve application
+            performance and usability.
+          </li>
+        </ul>
+      </div>
+      <div className="experience">
         <h3>Judicial Service (Head Office)</h3>
-        <p>IT and Software Engineer</p>
+        <p>Software Engineer</p>
         <p>Accra, Ghana</p>
-        <p>Sept 2020 - Jan 2022</p>
+        <p>Sept 2020 - Aug 2021</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807312/coa.svg_eiiosd.png"
           alt="Judicial Service logo"
@@ -29,7 +53,7 @@ const Experience = () => {
             and performed error analysis.
           </li>
           <li>
-            Advocated for new or improved development practices that increase
+            Advocate for new or improved development practices that increase
             availability, resilience, and scalability of our solutions.
           </li>
         </ul>
@@ -39,7 +63,7 @@ const Experience = () => {
         <h3>YelloFix</h3>
         <p>Software Developer</p>
         <p>Accra, Ghana</p>
-        <p>August 2019 - Sept 2020</p>
+        <p>August 2019 - Jan 2020</p>
         <p className="yellofix">
           Y<span>F</span>
         </p>
@@ -49,14 +73,13 @@ const Experience = () => {
             devices to provide users with quality user experience.
           </li>
           <li>
-            Put UI/UX deisgn wireframes to actual code and integrated frontend
-            system with backend API's
+            Put UI/UX wireframes to actual React and CSS code, and integrated
+            frontend system with backend API's.
           </li>
           <li>
             Advocated on effective development patterns to ensure consistent and
-            easily reusable styles.
+            easily reusable code.
           </li>
-          <li>Designed and built highly efficient APIs</li>
         </ul>
       </div>
     </motion.div>
