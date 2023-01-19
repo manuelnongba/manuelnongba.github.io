@@ -10,7 +10,7 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       exit={{ opacity: 0 }}
     >
-      <div className="experience">
+      {/* <div className="experience">
         <h3>Jaskosdata Limited</h3>
         <p>Full-Stack Engineer</p>
         <p>Tema, Ghana</p>
@@ -33,7 +33,7 @@ const Experience = () => {
             performance and usability.
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="experience">
         <h3>Judicial Service (Head Office)</h3>
         <p>Software Engineer</p>
@@ -59,7 +59,7 @@ const Experience = () => {
         </ul>
       </div>
 
-      <div className="experience">
+      {/* <div className="experience">
         <h3>YelloFix</h3>
         <p>Software Developer</p>
         <p>Accra, Ghana</p>
@@ -81,7 +81,7 @@ const Experience = () => {
             easily reusable code.
           </li>
         </ul>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
