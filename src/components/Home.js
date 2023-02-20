@@ -1,6 +1,6 @@
-import "./Home.css";
-import React from "react";
-import { motion } from "framer-motion";
+import './Home.css';
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const Home = () => {
   return (
@@ -67,10 +67,10 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/python_gk277n.svg"
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1676918635/typescript_original_logo_icon_146317_xbicoh.svg"
               alt="postman"
             />
-            <p>Python</p>
+            <p>TypeScript</p>
           </div>
 
           <div>
