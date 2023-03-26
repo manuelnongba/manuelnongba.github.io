@@ -1,16 +1,16 @@
-import "./Header.css";
-import React, { useEffect, useRef, useState } from "react";
-import { NavLink } from "react-router-dom";
+import '../styles/Header.css';
+import React, { useEffect, useRef, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
   const ref = useRef();
 
   useEffect(() => {
-    document.body.addEventListener("mousedown", handleClickOutside);
+    document.body.addEventListener('mousedown', handleClickOutside);
 
     return () => {
-      document.body.removeEventListener("mousedown", handleClickOutside);
+      document.body.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
 
@@ -29,7 +29,7 @@ const Header = () => {
   // onClick={() => setOpen(!open)}
 
   return (
-    <div className={`header ${open ? "nav-open" : ""}`}>
+    <div className={`header ${open ? 'nav-open' : ''} sticky`}>
       <NavLink to="/" className="main">
         Emmanuel Anongba
       </NavLink>

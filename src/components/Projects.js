@@ -1,6 +1,6 @@
-import "./Projects.css";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import '../styles/Projects.css';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 const Projects = () => {
   const [open, setOpen] = useState(false);
@@ -17,8 +17,8 @@ const Projects = () => {
           <img
             src={
               open
-                ? "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/pharma_y0s6wk.gif"
-                : "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/pharma_ua2ll7.png"
+                ? 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/pharma_y0s6wk.gif'
+                : 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/pharma_ua2ll7.png'
             }
             alt="Multi Explore Project"
             onMouseOver={() => setOpen(true)}
@@ -60,8 +60,8 @@ const Projects = () => {
           <img
             src={
               open
-                ? "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807377/multigif_nzbxm5.gif"
-                : "https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/multi_x7ukof.jpg"
+                ? 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807377/multigif_nzbxm5.gif'
+                : 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/multi_x7ukof.jpg'
             }
             alt="Multi Explore Project"
             onMouseOver={() => setOpen(true)}
@@ -104,7 +104,7 @@ const Projects = () => {
           <h2>Gojek UI</h2>
           <p>
             This is the UI of Gojek super app website in indonesia. Built with
-            ReactJS and CSS.{" "}
+            ReactJS and CSS.{' '}
           </p>
           <div className="links">
             <a

@@ -1,12 +1,18 @@
 .header {
-  margin: 6rem auto;
   border-bottom: 1px solid rgb(218, 215, 215);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 4.8rem;
-  position: relative;
+  padding: 2.5rem 8rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(249, 249, 249, 0.968);
 }
 
 .header a {
@@ -17,7 +23,6 @@
 
 .main {
   font-size: 4rem;
-  padding-bottom: 40px;
 }
 
 .main:hover {
@@ -27,7 +32,6 @@
 .right-nav {
   display: inline;
   font-size: 2.5rem;
-  padding-bottom: 4rem;
 
   display: flex;
   gap: 10rem;
@@ -61,7 +65,7 @@
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.icon-mobile-nav[name='close-outline'] {
   display: none;
 }
 
@@ -108,11 +112,11 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
+  .nav-open .icon-mobile-nav[name='close-outline'] {
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
     display: none;
   }
 }

@@ -11,12 +11,13 @@ html {
 
 body {
   background-color: rgb(246, 246, 246);
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   overflow-x: hidden;
 }
 
 .home-container {
   max-width: 140rem;
+  margin-top: 15rem;
 }
 
 .me {
@@ -32,7 +33,7 @@ body {
 }
 
 .about {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 65rem;
   text-align: justify;
   background-color: #e9ecef;

@@ -1,6 +1,6 @@
-import React from "react";
-import "./Research.css";
-import { motion } from "framer-motion";
+import React from 'react';
+import '../styles/Research.css';
+import { motion } from 'framer-motion';
 
 const Research = () => {
   return (
