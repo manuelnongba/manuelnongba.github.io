@@ -101,7 +101,7 @@ const Projects = () => {
           />
         </div>
         <div className="project-description">
-          <h2>Gojek UI</h2>
+          <h2>Gojek Desktop UI</h2>
           <p>
             This is the UI of Gojek super app website in indonesia. Built with
             ReactJS and CSS.{' '}
