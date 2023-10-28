@@ -11,13 +11,12 @@
 }
 
 .experience {
-  background-color: #dbe4ff;
+  background-color: #e9ecef;
 
   max-width: 60rem;
   text-align: center;
   padding: 4rem 4rem;
-  border: 1px solid #dbe4ff;
-  border-radius: 10px;
+
   line-height: 1.8;
 }
 

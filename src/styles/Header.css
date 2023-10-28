@@ -1,5 +1,6 @@
 .header {
   border-bottom: 1px solid rgb(218, 215, 215);
+  font-family: 'Quicksand', sans-serif;
 
   display: flex;
   justify-content: space-between;
@@ -38,7 +39,8 @@
 }
 
 .right-nav a {
-  color: rgb(64, 125, 222);
+  color: #1971c2;
+  font-size: 2rem;
 }
 
 .right-nav a:hover {

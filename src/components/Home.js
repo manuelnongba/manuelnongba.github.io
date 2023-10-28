@@ -16,13 +16,18 @@ const Home = () => {
           alt="my bitmoji"
         />
         <div className="about">
-          I am a Software Engineer well-versed in JavaScript. I like to use
-          React, Redux, NodeJS(Express) and MongoDB. I love writing clean,
-          reusable code and I also try to solve leetcode problems for fun 😀.
+          {/* My portfolio features a diverse range of projects, from
+          web and mobile applications to back-end systems. */}
+          "Welcome to my portfolio, where I make my ideas to reality through
+          code. I like to design robust, scalable, and user-friendly
+          applications. I thrive on solving complex problems, writing clean and
+          efficient code, and collaborating with cross-functional teams. Explore
+          my work to see how I leverage my technical skills and creativity to
+          deliver software solutions that make a difference."
         </div>
       </div>
       <div className="stack">
-        <div className="stack-header">languages and libraries</div>
+        <div className="stack-header">languages and technologies</div>
         <div className="stack-images images">
           <div>
             <img
@@ -80,12 +85,36 @@ const Home = () => {
             />
             <p>CSS3</p>
           </div>
+
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/react_gncl47.svg"
+              alt="postman"
+            />
+            <p>React Native</p>
+          </div>
+
           <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/redux_ojxku6.svg"
               alt="redux"
             />
             <p>Redux</p>
+          </div>
+
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698157771/sql_ypptxa.png"
+              alt="css"
+            />
+            <p>SQL</p>
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698170519/postgresql_a8krhg.svg"
+              alt="redux"
+            />
+            <p>PostgreSQL</p>
           </div>
         </div>
       </div>

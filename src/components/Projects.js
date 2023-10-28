@@ -17,6 +17,82 @@ const Projects = () => {
           <img
             src={
               open
+                ? 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1698192567/233rooms_cgyip7.jpg'
+                : 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1698192567/233rooms_cgyip7.jpg'
+            }
+            alt="233 Rooms"
+            onMouseOver={() => setOpen(true)}
+            onMouseOut={() => setOpen(false)}
+          />
+        </div>
+        <div className="project-description">
+          <h2>233 Rooms</h2>
+          <p>
+            Rent out your room, find rooms for rent close to your location or by
+            changing to your desired location. <br />
+            <br />
+            <strong>Uses Location Service</strong>
+          </p>
+          <div className="links">
+            <a
+              href="https://233rooms.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ion-icon name="globe-outline"></ion-icon> website
+            </a>
+            {/* <a
+              href="https://github.com/manuelnongba/PharmaPro"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ion-icon name="logo-github"></ion-icon> github
+            </a> */}
+          </div>
+        </div>
+      </div>
+      <div className="project">
+        <div className="project-img">
+          <img
+            src={
+              open
+                ? 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1698192388/places_nuygmr.jpg'
+                : 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1698192388/places_nuygmr.jpg'
+            }
+            alt="Places"
+            onMouseOver={() => setOpen(true)}
+            onMouseOut={() => setOpen(false)}
+          />
+        </div>
+        <div className="project-description">
+          <h2>Places</h2>
+          <p>
+            Keep track of all your expenses of places you have been and
+            carefully analyze your budget.
+          </p>
+          <div className="links">
+            <a
+              href="https://placesweb.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ion-icon name="globe-outline"></ion-icon> website
+            </a>
+            <a
+              href="https://github.com/manuelnongba/places"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ion-icon name="logo-github"></ion-icon> github
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="project">
+        <div className="project-img">
+          <img
+            src={
+              open
                 ? 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/pharma_y0s6wk.gif'
                 : 'https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807374/pharma_ua2ll7.png'
             }
@@ -113,13 +189,6 @@ const Projects = () => {
               rel="noreferrer"
             >
               <ion-icon name="globe-outline"></ion-icon> website
-            </a>
-            <a
-              href="https://github.com/manuelnongba/gojek"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ion-icon name="logo-github"></ion-icon> github
             </a>
           </div>
         </div>

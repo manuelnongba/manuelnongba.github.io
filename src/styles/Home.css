@@ -54,7 +54,7 @@ body {
 
 .stack {
   margin-bottom: 10rem;
-  margin: 5rem auto;
+  margin: 8rem auto;
 
   display: flex;
   align-items: center;
@@ -67,35 +67,47 @@ body {
 }
 
 .stack-images {
-  width: 45rem;
   margin: 10rem 0;
   height: 39rem;
 
   display: grid;
-  grid-template-columns: repeat(3, 15rem);
-  grid-template-rows: repeat(3, 13rem);
+  grid-template-columns: repeat(4, 15rem);
+  grid-template-rows: repeat(4, 13rem);
   align-items: center;
   justify-items: center;
 }
 
-.stack-images div:nth-child(odd) {
-  background-color: #5d4dac;
-  height: 13rem;
-  width: 15rem;
-
+.stack-images div {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  height: 13rem;
+  width: 15rem;
+}
+
+.stack-images div:nth-child(odd) {
+  background-color: #5d4dac;
 }
 
 .stack-images div:nth-child(even) {
   background-color: #865ff6;
-  height: 13rem;
-  width: 15rem;
+}
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.stack-images div:nth-child(5) {
+  background-color: #865ff6;
+}
+
+.stack-images div:nth-child(6) {
+  background-color: #5d4dac;
+}
+
+.stack-images div:nth-child(7) {
+  background-color: #865ff6;
+}
+
+.stack-images div:nth-child(8) {
+  background-color: #5d4dac;
 }
 
 .stack-images p {
