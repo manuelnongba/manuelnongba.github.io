@@ -40,7 +40,7 @@ const Experience = () => {
         <h3>Jaskosdata Limited</h3>
         <p>Software Engineer</p>
         <p>Tema, Ghana</p>
-        <p>Oct 2021 - Sept 2022</p>
+        <p>Oct 2021 - Jan 2022</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1673743783/jdl_uxk08n.jpg"
           alt="Jaskosdata Limited"
