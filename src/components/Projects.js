@@ -34,11 +34,7 @@ const Projects = () => {
             <strong>Uses Location Service</strong>
           </p>
           <div className="links">
-            <a
-              href="https://233rooms.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://233rooms.online/" target="_blank" rel="noreferrer">
               <ion-icon name="globe-outline"></ion-icon> website
             </a>
             {/* <a
