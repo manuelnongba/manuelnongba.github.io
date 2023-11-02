@@ -17,7 +17,7 @@ body {
 
 .home-container {
   max-width: 140rem;
-  margin-top: 15rem;
+  margin: 15rem 2rem 0 2rem;
 }
 
 .me {
@@ -53,7 +53,6 @@ body {
 }
 
 .stack {
-  margin-bottom: 10rem;
   margin: 8rem auto;
 
   display: flex;
@@ -115,7 +114,7 @@ body {
 }
 
 .images-contact {
-  margin: 8rem 8rem;
+  margin: 0rem 8rem;
 
   display: flex;
   justify-content: center;
@@ -139,7 +138,64 @@ body {
   margin: 1rem 1rem;
 }
 
-@media (max-width: 26em) {
+@media (max-width: 750px) {
+  .stack {
+    flex-direction: column;
+    margin: 8rem 0 0 0;
+  }
+
+  .images-contact span {
+    display: none;
+  }
+}
+
+@media (max-width: 688px) {
+  .images-contact span {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .me {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .stack-images {
+    display: grid;
+    grid-template-columns: repeat(4, 11rem);
+    grid-template-rows: repeat(3, 12rem);
+    align-items: center;
+    justify-items: center;
+  }
+
+  .stack-images div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 12rem;
+    width: 11.5rem;
+  }
+
+  .images img {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 350px) {
+  .stack-images {
+    display: grid;
+    grid-template-columns: repeat(3, 11rem);
+    grid-template-rows: repeat(auto, 10rem);
+    align-items: center;
+    justify-items: center;
+  }
+}
+/* @media (max-width: 26em) {
   .me {
     flex-direction: column;
   }
@@ -151,4 +207,4 @@ body {
   .images-contact span {
     display: none;
   }
-}
+} */
