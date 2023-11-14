@@ -48,7 +48,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <div className="project-img">
+        {/* <div className="project-img">
           <img
             src={
               open
@@ -59,7 +59,7 @@ const Projects = () => {
             onMouseOver={() => setOpen(true)}
             onMouseOut={() => setOpen(false)}
           />
-        </div>
+        </div> */}
         {/* <div className="project-description">
           <h2>Places</h2>
           <p>
