@@ -21,36 +21,27 @@ const Experience = () => {
         />
         <ul>
           <li>
-            • Optimized Ghana Integrated Tax Management and Information System
+            Optimized Ghana Integrated Tax Management and Information System
             (GITMIS) reports at GRA offices significantly reducing response
             times by 40%, leading to a notable increase in report generation.
           </li>
           <li>
-            • Collaborated closely with the Chief Technology Officer to enhance
+            Collaborated closely with the Chief Technology Officer to enhance
             features on the GRA self-service taxpayers' portal, simplifying the
             tax filing and payment process, resulting in an improved user
             experience and contributed to increased revenue for our
             stakeholders.
           </li>
           <li>
-            • Streamlined Tax Return Forms with pre-populated forms that retain
-            your previous entries and maintain consistent details, reducing the
-            need for repetitive typing.
-          </li>
-          <li>
-            • Linked GRA Staff to their Ghana Card Numbers via NIA's API,
+            Linked GRA Staff to their Ghana Card Numbers via NIA's API,
             implementing an automated retirement-age account deactivation system
             for streamlined personnel management and enhanced security.
           </li>
           <li>
-            • Collaboratively designed the front-end of a self-service Hospital
+            Collaboratively designed the front-end of a self-service Hospital
             Portal with Angular within a team of four to provide stakeholders
             with the capability to access medical records and schedule
             appointments, enhancing the overall patient experience.
-          </li>
-          <li>
-            • Liaised directly with stakeholders to refine requirements and
-            enhance applications, contributing to increased revenue generation.
           </li>
         </ul>
       </div>
@@ -65,22 +56,22 @@ const Experience = () => {
         />
         <ul>
           <li>
-            • Utilized redux to control state flow across multi-layered React
+            Utilized redux to control state flow across multi-layered React
             components, allowing team to use redux dev tools for time-travel
             debugging and minimizing unintentional changes to state.
           </li>
           <li>
-            • Integrated Stripe API into Clients' Node.js backend and updated UI
+            Integrated Stripe API into Clients' Node.js backend and updated UI
             of client-side React app, thereby streamlining subscription
             purchases, increasing revenue and improving customer retention.
           </li>
           <li>
-            • Leveraged best practices for efficient and modular code, quality
+            Leveraged best practices for efficient and modular code, quality
             assurance standards, project management procedures and set the
             front-end architectural direction.
           </li>
           <li>
-            • Implemented a successful redesign of web applications working
+            Implemented a successful redesign of web applications working
             closely with product design and collaborated with cross-functional
             teams to improve application performance and usability.
           </li>
@@ -97,29 +88,24 @@ const Experience = () => {
         />
         <ul>
           <li>
-            • Optimized the e-filing process on the e-justice system,
-            facilitating a seamless and paperless filing process, reducing
-            administrative burdens.
+            Optimized the e-filing process on the e-justice system, facilitating
+            a seamless and paperless filing process, reducing administrative
+            burdens.
           </li>
           <li>
-            • Enhanced the e-justice platform, resulting in increased efficiency
+            Enhanced the e-justice platform, resulting in increased efficiency
             when handling court dockets fostering in a more responsive and
             effective judicial system.
           </li>
           <li>
-            • Elevated application performance by identifying and implementing
+            Elevated application performance by identifying and implementing
             enhancements through strategic recommendations and system design
             resulting in optimized functionalities and improved overall system
             efficiency.
           </li>
           <li>
-            • Defined and conducted design processes for backend for all stages
+            Defined and conducted design processes for backend for all stages
             including research, conceptualization and implementation.
-          </li>
-          <li>
-            • Conducted training sessions for legal staff on the effective use
-            of software tools, enhancing the team's technical proficiency and
-            ensuring optimal utilization of available resources.
           </li>
         </ul>
       </div>
