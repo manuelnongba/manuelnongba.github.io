@@ -21,18 +21,36 @@ const Experience = () => {
         />
         <ul>
           <li>
-            Provided assistance and feature updates to Ghana Integrated Tax
-            Management and Information System (GITMIS) deployed in GRA offices
-            for tax payer management.
+            • Optimized Ghana Integrated Tax Management and Information System
+            (GITMIS) reports at GRA offices significantly reducing response
+            times by 40%, leading to a notable increase in report generation.
           </li>
           <li>
-            Worked with a team of 4 to develop a self-service Hospital Portal
-            for our stakeholders, to allow patients get access to their medical
-            records and make appointments.
+            • Collaborated closely with the Chief Technology Officer to enhance
+            features on the GRA self-service taxpayers' portal, simplifying the
+            tax filing and payment process, resulting in an improved user
+            experience and contributed to increased revenue for our
+            stakeholders.
           </li>
           <li>
-            Liaised directly with stakeholders to finetune requirements and
-            improvement of applications.
+            • Streamlined Tax Return Forms with pre-populated forms that retain
+            your previous entries and maintain consistent details, reducing the
+            need for repetitive typing.
+          </li>
+          <li>
+            • Linked GRA Staff to their Ghana Card Numbers via NIA's API,
+            implementing an automated retirement-age account deactivation system
+            for streamlined personnel management and enhanced security.
+          </li>
+          <li>
+            • Collaboratively designed the front-end of a self-service Hospital
+            Portal with Angular within a team of four to provide stakeholders
+            with the capability to access medical records and schedule
+            appointments, enhancing the overall patient experience.
+          </li>
+          <li>
+            • Liaised directly with stakeholders to refine requirements and
+            enhance applications, contributing to increased revenue generation.
           </li>
         </ul>
       </div>
@@ -47,21 +65,24 @@ const Experience = () => {
         />
         <ul>
           <li>
-            Architected and implemented organizations and projects UI based on
-            user feedback.
+            • Utilized redux to control state flow across multi-layered React
+            components, allowing team to use redux dev tools for time-travel
+            debugging and minimizing unintentional changes to state.
           </li>
           <li>
-            Implemented a successful redesign of apps working closely with
-            product design.
-          </li>
-          <li>Built and deployed a Rest APIs for the backend.</li>
-          <li>
-            Implemented best practices, quality assurance standards and project
-            management procedures.
+            • Integrated Stripe API into Clients' Node.js backend and updated UI
+            of client-side React app, thereby streamlining subscription
+            purchases, increasing revenue and improving customer retention.
           </li>
           <li>
-            Collaborate with cross-functional teams to improve application
-            performance and usability.
+            • Leveraged best practices for efficient and modular code, quality
+            assurance standards, project management procedures and set the
+            front-end architectural direction.
+          </li>
+          <li>
+            • Implemented a successful redesign of web applications working
+            closely with product design and collaborated with cross-functional
+            teams to improve application performance and usability.
           </li>
         </ul>
       </div>
@@ -76,20 +97,29 @@ const Experience = () => {
         />
         <ul>
           <li>
-            Enhanced applications by identifying areas of improvement, making
-            recommendations, designing and implementing systems.
+            • Optimized the e-filing process on the e-justice system,
+            facilitating a seamless and paperless filing process, reducing
+            administrative burdens.
           </li>
           <li>
-            Designed and implemented software systems for the courts and
-            maintain, improve and debug existing codebases.
+            • Enhanced the e-justice platform, resulting in increased efficiency
+            when handling court dockets fostering in a more responsive and
+            effective judicial system.
           </li>
           <li>
-            Advocate for new or improved development practices that increase
-            availability, resilience, and scalability of our solutions.
+            • Elevated application performance by identifying and implementing
+            enhancements through strategic recommendations and system design
+            resulting in optimized functionalities and improved overall system
+            efficiency.
           </li>
           <li>
-            • Liaised with peers to improve the e-justice platform to increase
-            efficiency when working with court dockets.
+            • Defined and conducted design processes for backend for all stages
+            including research, conceptualization and implementation.
+          </li>
+          <li>
+            • Conducted training sessions for legal staff on the effective use
+            of software tools, enhancing the team's technical proficiency and
+            ensuring optimal utilization of available resources.
           </li>
         </ul>
       </div>
