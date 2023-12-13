@@ -14,7 +14,7 @@ const Experience = () => {
         <h3>Spagad Technologies/Axon Information Systems</h3>
         <p>Software Engineer</p>
         <p>Accra, Ghana</p>
-        <p>Feb 2022 - October 2023</p>
+        <p>Feb 2022 - Present</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698250178/Spagad_Logo_i5p3re.jpg"
           alt="Spagad Technologies/Axon Information Systems"
@@ -36,12 +36,6 @@ const Experience = () => {
             Linked GRA Staff to their Ghana Card Numbers via NIA's API,
             implementing an automated retirement-age account deactivation system
             for streamlined personnel management and enhanced security.
-          </li>
-          <li>
-            Collaboratively designed the front-end of a self-service Hospital
-            Portal with Angular within a team of four to provide stakeholders
-            with the capability to access medical records and schedule
-            appointments, enhancing the overall patient experience.
           </li>
         </ul>
       </div>
@@ -70,11 +64,6 @@ const Experience = () => {
             assurance standards, project management procedures and set the
             front-end architectural direction.
           </li>
-          <li>
-            Implemented a successful redesign of web applications working
-            closely with product design and collaborated with cross-functional
-            teams to improve application performance and usability.
-          </li>
         </ul>
       </div>
       <div className="experience">
@@ -88,11 +77,6 @@ const Experience = () => {
         />
         <ul>
           <li>
-            Optimized the e-filing process on the e-justice system, facilitating
-            a seamless and paperless filing process, reducing administrative
-            burdens.
-          </li>
-          <li>
             Enhanced the e-justice platform, resulting in increased efficiency
             when handling court dockets fostering in a more responsive and
             effective judicial system.
@@ -104,35 +88,11 @@ const Experience = () => {
             efficiency.
           </li>
           <li>
-            Defined and conducted design processes for backend for all stages
-            including research, conceptualization and implementation.
+            Defined and conducted design processes for the Node.js backend for
+            all stages including research, conceptualization and implementation.
           </li>
         </ul>
       </div>
-
-      {/* <div className="experience">
-        <h3>YelloFix</h3>
-        <p>Software Developer</p>
-        <p>Accra, Ghana</p>
-        <p>August 2019 - Jan 2020</p>
-        <p className="yellofix">
-          Y<span>F</span>
-        </p>
-        <ul>
-          <li>
-            Developed responsive web applications that cut accross all modern
-            devices to provide users with quality user experience.
-          </li>
-          <li>
-            Put UI/UX wireframes to actual React and CSS code, and integrated
-            frontend system with backend API's.
-          </li>
-          <li>
-            Advocated on effective development patterns to ensure consistent and
-            easily reusable code.
-          </li>
-        </ul>
-      </div> */}
     </motion.div>
   );
 };

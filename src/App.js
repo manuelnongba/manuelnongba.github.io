@@ -1,8 +1,8 @@
-import React from "react";
-import { HashRouter } from "react-router-dom";
-import AnimatedRoutes from "./AnimatedRoutes";
-import Footer from "./footer";
-import Header from "./Header";
+import React from 'react';
+import { HashRouter } from 'react-router-dom';
+import AnimatedRoutes from './components/AnimatedRoutes';
+import Footer from './components/footer';
+import Header from './components/Header';
 
 const App = () => {
   return (
