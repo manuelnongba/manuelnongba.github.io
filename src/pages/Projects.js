@@ -34,7 +34,7 @@ const Projects = () => {
             keep track of inventory."
         website="https://pharmapro.onrender.com/"
         github="https://github.com/manuelnongba/PharmaPro"
-        image="https://res.cloudinary.com/drxwuqu3v/image/upload/v1702509840/Screenshot_2023-12-13_at_11.19.54_PM_hchm8a.png"
+        image="https://res.cloudinary.com/drxwuqu3v/image/upload/v1703033743/Screenshot_2023-12-20_at_12.17.44_AM_kgcoih.png"
         alt="PharmaPro"
       />
       <Project
