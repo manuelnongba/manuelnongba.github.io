@@ -11,31 +11,29 @@ const Experience = () => {
       exit={{ opacity: 0 }}
     >
       <div className="experience">
-        <h3>Spagad Technologies/Axon Information Systems</h3>
-        <p>Software Engineer</p>
+        <h3>Spagad Technologies Limited</h3>
+        <p>Software Systems Developer</p>
         <p>Accra, Ghana</p>
         <p>Feb 2022 - Present</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698250178/Spagad_Logo_i5p3re.jpg"
-          alt="Spagad Technologies/Axon Information Systems"
+          alt="Spagad Technologies"
         />
         <ul>
           <li>
-            Optimized Ghana Integrated Tax Management and Information System
-            (GITMIS) reports at GRA offices significantly reducing response
-            times by 40%, leading to a notable increase in report generation.
-          </li>
-          <li>
-            Collaborated closely with the Chief Technology Officer to enhance
-            features on the GRA self-service taxpayers' portal, simplifying the
-            tax filing and payment process, resulting in an improved user
-            experience and contributed to increased revenue for our
+            Collaborated closely with the CTO to enhance features on the GRA
+            self-service taxpayers' portal, simplifying the tax filing and
+            payment process, resulting in an increased revenue for our
             stakeholders.
           </li>
           <li>
             Linked GRA Staff to their Ghana Card Numbers via NIA's API,
             implementing an automated retirement-age account deactivation system
             for streamlined personnel management and enhanced security.
+          </li>
+          <li>
+            Reduced server load by 36% through optimizing APIs, streamlining
+            query logic and data caching.
           </li>
         </ul>
       </div>
