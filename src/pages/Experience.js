@@ -12,7 +12,7 @@ const Experience = () => {
     >
       <div className="experience">
         <h3>Spagad Technologies Limited</h3>
-        <p>Software Systems Developer</p>
+        <p>Software Developer</p>
         <p>Accra, Ghana</p>
         <p>Feb 2022 - Present</p>
         <img
@@ -32,14 +32,14 @@ const Experience = () => {
             for streamlined personnel management and enhanced security.
           </li>
           <li>
-            Reduced server load by 36% through optimizing APIs, streamlining
+            Reduced server load by 35% through optimizing APIs, streamlining
             query logic and data caching.
           </li>
         </ul>
       </div>
       <div className="experience">
         <h3>Jaskosdata Limited</h3>
-        <p>Software Engineer</p>
+        <p>Full Stack Developer</p>
         <p>Tema, Ghana</p>
         <p>Oct 2021 - Jan 2022</p>
         <img
