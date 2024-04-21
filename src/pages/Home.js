@@ -31,10 +31,38 @@ const Home = () => {
         <div className="stack-images images">
           <div>
             <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1713663736/c_jfv2gw.svg"
+              alt="C++"
+            />
+            {/* <p>C++</p> */}
+          </div>
+          <div>
+            <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807355/js_tyv6zl.svg"
               alt="javascript"
             />
             <p>JavaScript</p>
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1676918635/typescript_original_logo_icon_146317_xbicoh.svg"
+              alt="postman"
+            />
+            <p>TypeScript</p>
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698157771/sql_ypptxa.png"
+              alt="css"
+            />
+            {/* <p>SQL</p> */}
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1713663739/python-5_ydb2lk.svg"
+              alt="python"
+            />
+            <p>Python</p>
           </div>
           <div>
             <img
@@ -48,21 +76,14 @@ const Home = () => {
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/nodejs_twitbd.svg"
               alt="node js"
             />
-            <p>NodeJS</p>
-          </div>
-
-          <div>
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/mongodb_orsdge.svg"
-              alt="mongo"
-            />
-            <p>MongoDB</p>
+            {/* <p>NodeJS</p> */}
           </div>
           <div>
             <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807324/html5_z63blp.svg"
-              alt="html5"
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/react_gncl47.svg"
+              alt="postman"
             />
+            <p>React Native</p>
           </div>
           <div>
             <img
@@ -72,12 +93,10 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1676918635/typescript_original_logo_icon_146317_xbicoh.svg"
-              alt="postman"
+              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807324/html5_z63blp.svg"
+              alt="html5"
             />
-            <p>TypeScript</p>
           </div>
-
           <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807312/css3_sue5t6.svg"
@@ -86,29 +105,6 @@ const Home = () => {
             <p>CSS3</p>
           </div>
 
-          <div>
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/react_gncl47.svg"
-              alt="postman"
-            />
-            <p>React Native</p>
-          </div>
-
-          <div>
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/redux_ojxku6.svg"
-              alt="redux"
-            />
-            <p>Redux</p>
-          </div>
-
-          <div>
-            <img
-              src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698157771/sql_ypptxa.png"
-              alt="css"
-            />
-            <p>SQL</p>
-          </div>
           <div>
             <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698170519/postgresql_a8krhg.svg"

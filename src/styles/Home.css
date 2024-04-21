@@ -86,27 +86,27 @@ body {
 }
 
 .stack-images div:nth-child(odd) {
-  background-color: #5d4dac;
+  background-color: #865ff6;
 }
 
 .stack-images div:nth-child(even) {
-  background-color: #865ff6;
+  background-color: #5d4dac;
 }
 
 .stack-images div:nth-child(5) {
-  background-color: #865ff6;
+  background-color: #5d4dac;
 }
 
 .stack-images div:nth-child(6) {
-  background-color: #5d4dac;
-}
-
-.stack-images div:nth-child(7) {
   background-color: #865ff6;
 }
 
-.stack-images div:nth-child(8) {
+.stack-images div:nth-child(7) {
   background-color: #5d4dac;
+}
+
+.stack-images div:nth-child(8) {
+  background-color: #865ff6;
 }
 
 .stack-images p {
