@@ -55,7 +55,6 @@ const Home = () => {
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698157771/sql_ypptxa.png"
               alt="css"
             />
-            {/* <p>SQL</p> */}
           </div>
           <div>
             <img
@@ -76,7 +75,6 @@ const Home = () => {
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/nodejs_twitbd.svg"
               alt="node js"
             />
-            {/* <p>NodeJS</p> */}
           </div>
           <div>
             <img
