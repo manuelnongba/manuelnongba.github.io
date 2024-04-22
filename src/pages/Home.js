@@ -75,6 +75,7 @@ const Home = () => {
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807373/nodejs_twitbd.svg"
               alt="node js"
             />
+            {/* <p>NodeJS</p> */}
           </div>
           <div>
             <img
