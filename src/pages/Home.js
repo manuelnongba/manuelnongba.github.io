@@ -34,7 +34,6 @@ const Home = () => {
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1713663736/c_jfv2gw.svg"
               alt="C++"
             />
-            {/* <p>C++</p> */}
           </div>
           <div>
             <img
