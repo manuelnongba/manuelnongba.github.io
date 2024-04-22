@@ -14,7 +14,7 @@ const Experience = () => {
         <h3>Spagad Technologies Limited</h3>
         <p>Software Developer</p>
         <p>Accra, Ghana</p>
-        <p>Feb 2022 - Present</p>
+        <p>Feb 2023 - Present</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698250178/Spagad_Logo_i5p3re.jpg"
           alt="Spagad Technologies"
@@ -41,7 +41,7 @@ const Experience = () => {
         <h3>Jaskosdata Limited</h3>
         <p>Full Stack Developer</p>
         <p>Tema, Ghana</p>
-        <p>Oct 2021 - Jan 2022</p>
+        <p>Oct 2021 - Jan 2023</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1673743783/jdl_uxk08n.jpg"
           alt="Jaskosdata Limited"
