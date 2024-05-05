@@ -11,28 +11,26 @@ const Experience = () => {
       exit={{ opacity: 0 }}
     >
       <div className="experience">
-        <h3>Spagad Technologies Limited</h3>
+        <h3>Axon Information Systems</h3>
         <p>Software Developer</p>
         <p>Accra, Ghana</p>
         <p>Feb 2023 - Present</p>
         <img
-          src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698250178/Spagad_Logo_i5p3re.jpg"
-          alt="Spagad Technologies"
+          src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1714934319/Unknown_r6lh2h.jpg"
+          alt="Axon Information Systems"
         />
         <ul>
           <li>
-            Collaborated closely with the CTO to enhance features on the GRA
-            self-service taxpayers' portal, simplifying the tax filing and
-            payment process, resulting in an increased revenue for our
-            stakeholders.
+            Built and maintained integrations with partners like ICUMS, NIA, and
+            Digital Innova.
           </li>
           <li>
-            Linked GRA Staff to their Ghana Card Numbers via NIA's API,
-            implementing an automated retirement-age account deactivation system
-            for streamlined personnel management and enhanced security.
+            Implemented the integration of taxpayers' geographical locations
+            with Google Maps, enhancing the efficiency of incorporating informal
+            sector entities into the tax net.
           </li>
           <li>
-            Reduced server load by 35% through optimizing APIs, streamlining
+            Reduced server load by 65% through optimizing APIs, streamlining
             query logic and data caching.
           </li>
         </ul>
@@ -75,19 +73,18 @@ const Experience = () => {
         />
         <ul>
           <li>
-            Enhanced the e-justice platform, resulting in increased efficiency
-            when handling court dockets fostering in a more responsive and
-            effective judicial system.
+            Developed the front-end of the E-filing portal using JavaScript and
+            HTML/CSS for filing of cases, self-assessment and case management
+            streamlining the legal process.
           </li>
           <li>
-            Elevated application performance by identifying and implementing
-            enhancements through strategic recommendations and system design
-            resulting in optimized functionalities and improved overall system
-            efficiency.
+            Increased the speed of the bail execution API by 72% after
+            benchmarking, through server management for the Bail Execution
+            Tracking System.
           </li>
           <li>
-            Defined and conducted design processes for the Node.js backend for
-            all stages including research, conceptualization and implementation.
+            Optimized APIs for the e-filing portal, resulting in increased
+            efficiency when handling court dockets.
           </li>
         </ul>
       </div>

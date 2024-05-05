@@ -16,14 +16,12 @@ const Home = () => {
           alt="my bitmoji"
         />
         <div className="about">
-          {/* My portfolio features a diverse range of projects, from
-          web and mobile applications to back-end systems. */}
-          "Welcome to my portfolio, where I make my ideas to reality through
-          code. I like to design robust, scalable, and user-friendly
-          applications. I thrive on solving complex problems, writing clean and
-          efficient code, and collaborating with cross-functional teams. Explore
-          my work to see how I leverage my technical skills and creativity to
-          deliver software solutions that make a difference."
+          "Welcome to my portfolio, where I express my thoughts through code. I
+          like to design robust, scalable, and user-friendly applications. I
+          thrive on solving complex problems, writing clean and efficient code,
+          and collaborating with cross-functional teams. Explore my work to see
+          how I leverage my technical skills and creativity to deliver software
+          solutions that make a difference."
         </div>
       </div>
       <div className="stack">
