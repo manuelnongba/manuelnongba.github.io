@@ -14,7 +14,7 @@ const Experience = () => {
         <h3>Axon Information Systems</h3>
         <p>Software Developer</p>
         <p>Accra, Ghana</p>
-        <p>Feb 2023 - Present</p>
+        <p>Feb 2022 - Present</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1714934319/Unknown_r6lh2h.jpg"
           alt="Axon Information Systems"
@@ -30,7 +30,7 @@ const Experience = () => {
             sector entities into the tax net.
           </li>
           <li>
-            Reduced server load by 65% through optimizing APIs, streamlining
+            Reduced server load by 18% through optimizing APIs, streamlining
             query logic and data caching.
           </li>
         </ul>
@@ -39,7 +39,7 @@ const Experience = () => {
         <h3>Jaskosdata Limited</h3>
         <p>Full Stack Developer</p>
         <p>Tema, Ghana</p>
-        <p>Oct 2021 - Jan 2023</p>
+        <p>Oct 2021 - Jan 2022</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1673743783/jdl_uxk08n.jpg"
           alt="Jaskosdata Limited"
