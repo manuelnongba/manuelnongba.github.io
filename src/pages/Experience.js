@@ -11,27 +11,37 @@ const Experience = () => {
       exit={{ opacity: 0 }}
     >
       <div className="experience">
+        <h3>Bosonit</h3>
+        <p>Full-Stack Developer</p>
+        <p>Spain</p>
+        <p>Nov 2024 - Present</p>
+        <img
+          src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1737685142/BosonitLogoFondo_yspol0.png"
+          alt="Bosonit"
+        />
+        <ul>
+          <li>Building Ataman - Elliot Cloud</li>
+        </ul>
+      </div>
+      <div className="experience">
         <h3>Axon Information Systems</h3>
         <p>Software Developer</p>
         <p>Accra, Ghana</p>
-        <p>Feb 2022 - Present</p>
+        <p>Feb 2022 - Nov 2024</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1714934319/Unknown_r6lh2h.jpg"
           alt="Axon Information Systems"
         />
         <ul>
           <li>
-            Built and maintained integrations with partners like ICUMS, NIA, and
-            Digital Innova.
+            Built and maintained a comprehensive enterprise application that
+            serves as the backbone of tax administration for the Ghana Revenue
+            Authority. GRA Taxpayers Portal.
           </li>
           <li>
-            Implemented the integration of taxpayers' geographical locations
-            with Google Maps, enhancing the efficiency of incorporating informal
-            sector entities into the tax net.
-          </li>
-          <li>
-            Reduced server load by 18% through optimizing APIs, streamlining
-            query logic and data caching.
+            Maintained an online self-service system which allows the taxpayer
+            to file returns, initiate payments and access other tax related
+            services.
           </li>
         </ul>
       </div>
@@ -39,7 +49,7 @@ const Experience = () => {
         <h3>Jaskosdata Limited</h3>
         <p>Full Stack Developer</p>
         <p>Tema, Ghana</p>
-        <p>Oct 2021 - Jan 2022</p>
+        <p>Aug 2021 - Jan 2022</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1673743783/jdl_uxk08n.jpg"
           alt="Jaskosdata Limited"
@@ -51,14 +61,8 @@ const Experience = () => {
             debugging and minimizing unintentional changes to state.
           </li>
           <li>
-            Integrated Stripe API into Clients' Node.js backend and updated UI
-            of client-side React app, thereby streamlining subscription
-            purchases, increasing revenue and improving customer retention.
-          </li>
-          <li>
-            Leveraged best practices for efficient and modular code, quality
-            assurance standards, project management procedures and set the
-            front-end architectural direction.
+            Built components using React and TypeScript that made shipping new
+            features to our product easier.
           </li>
         </ul>
       </div>
@@ -66,7 +70,7 @@ const Experience = () => {
         <h3>Judicial Service (Head Office)</h3>
         <p>Software Engineer</p>
         <p>Accra, Ghana</p>
-        <p>Sept 2020 - Aug 2021</p>
+        <p>Sept 2020 - Dec 2021</p>
         <img
           src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807312/coa.svg_eiiosd.png"
           alt="Judicial Service logo"
@@ -74,17 +78,12 @@ const Experience = () => {
         <ul>
           <li>
             Developed the front-end of the E-filing portal using JavaScript and
-            HTML/CSS for filing of cases, self-assessment and case management
-            streamlining the legal process.
+            HTML/CSS for filing of cases, self- assessment and case management.
           </li>
           <li>
-            Increased the speed of the bail execution API by 72% after
-            benchmarking, through server management for the Bail Execution
-            Tracking System.
-          </li>
-          <li>
-            Optimized APIs for the e-filing portal, resulting in increased
-            efficiency when handling court dockets.
+            Increased the speed of the bail execution API by 35% after
+            benchmarking, through server management and SQL Views for the Bail
+            Execution Tracking System.
           </li>
         </ul>
       </div>
