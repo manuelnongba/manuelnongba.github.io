@@ -1,50 +1,97 @@
 .experiences {
   font-size: 1.4rem;
-  margin: 12rem 0;
-  margin-top: 20rem;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  gap: 10rem;
+  margin-top: 10rem;
+  padding: 0 2rem;
+
+  display: grid;
+  justify-items: center;
+  row-gap: 8rem;
 }
 
 .experience {
-  background-color: #e9ecef;
-
-  width: 60rem;
-  text-align: center;
-  padding: 4rem 4rem;
-
+  background: linear-gradient(145deg, #ffffff, #f5f5f5);
+  width: 65rem;
+  text-align: left;
+  padding: 4rem;
   line-height: 1.8;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+/* 
+.experience:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+} */
+
+.experience h3 {
+  font-size: 2.4rem;
+  color: #1971c2;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.experience p {
+  color: #495057;
+  margin-bottom: 0.5rem;
 }
 
 .experience img {
-  width: 10rem;
-  height: 100;
+  width: 12rem;
+  height: 12rem;
+  object-fit: contain;
+  margin: 2rem 0;
+  transition: transform 0.3s ease;
 }
 
-.experience .yellofix {
-  font-size: 4.4rem;
-  font-style: italic;
-  font-weight: 700;
-  color: #fab005;
+.experience:hover img {
+  transform: scale(1.05);
 }
 
-.yellofix span {
-  color: black;
+.experience ul {
+  margin-top: 2rem;
+  padding-left: 2rem;
 }
 
-li {
-  list-style-position: inside;
-  list-style-type: square;
-  line-height: 1.8;
+.experience li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  color: #495057;
+}
+
+.experience li::before {
+  content: '•';
+  color: #1971c2;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 59em) {
+  .experience {
+    width: 90%;
+    padding: 3rem;
+  }
 }
 
 @media (max-width: 26em) {
   .experience {
-    max-width: 45rem;
+    width: 95%;
+    padding: 2rem;
     font-size: 1.2rem;
+  }
+
+  .experience h3 {
+    font-size: 2rem;
+  }
+
+  .experience img {
+    width: 10rem;
+    height: 10rem;
   }
 }
