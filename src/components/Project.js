@@ -2,9 +2,6 @@ import '../styles/Projects.css';
 import React from 'react';
 
 const Project = ({ title, desc, website, github, image, alt }) => {
-  let pharmaDetails = null;
-  if (title === 'PharmaPro') pharmaDetails = 'show';
-
   return (
     <div className="project">
       <div className="project-img">
@@ -28,15 +25,6 @@ const Project = ({ title, desc, website, github, image, alt }) => {
                 <span>github</span>
               </a>
             ) : null}
-          </div>
-        ) : null}
-        {pharmaDetails ? (
-          <div>
-            <div className="acc">admin account credentials</div>{' '}
-            <strong>username</strong>: manuelnongba password: helloworld
-            <br></br>
-            <div className="acc">attendant account credentials</div>
-            <strong>username</strong>: robobo password: helloworld
           </div>
         ) : null}
       </div>

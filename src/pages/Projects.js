@@ -15,41 +15,41 @@ const Projects = () => {
         title="233 Rooms"
         desc="A web app developed using React.js, Remix, Redux and PostgreSQL to seamlessly locate and display available rooms for rent based on the user's geolocation."
         website="https://233rooms.online/"
-        image="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698192567/233rooms_cgyip7.jpg"
+        image="/assets/233rooms.jpg"
         alt="233 Rooms"
       />
-
       <Project
         title="Places"
         desc="A web app developed using React.js, Remix, and PostgreSQL to conveniently track and manage expenses at various locations."
         website="https://placesweb.vercel.app/"
         github="https://github.com/manuelnongba/places"
-        image="https://res.cloudinary.com/drxwuqu3v/image/upload/v1698192388/places_nuygmr.jpg"
+        image="/assets/places.jpg"
         alt="Places"
+      />
+
+      <Project
+        title="Multi Explore"
+        desc="Multi-Explore is a React.js application that simultaneously fetches and displays search results from Google, YouTube, and Wikipedia for a single query."
+        website="https://multiexplore.netlify.app/"
+        github="https://github.com/manuelnongba/multiexplore"
+        image="/assets/multi.png"
+        alt="Multi Explore"
       />
       <Project
         title="PharmaPro"
         desc="A pharmacy management application built with React.js, Express and
             MongoDB to make daily transactions simple and efficient and also
             keep track of inventory."
-        website="https://pharmapro.onrender.com/"
+        website=""
         github="https://github.com/manuelnongba/PharmaPro"
-        image="https://res.cloudinary.com/drxwuqu3v/image/upload/v1703033743/Screenshot_2023-12-20_at_12.17.44_AM_kgcoih.png"
+        image="/assets/pharma.png"
         alt="PharmaPro"
-      />
-      <Project
-        title="Multi Explore"
-        desc="Multi-Explore is a React.js application that simultaneously fetches and displays search results from Google, YouTube, and Wikipedia for a single query."
-        website="https://multiexplore.netlify.app/"
-        github="https://github.com/manuelnongba/multiexplore"
-        image="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807375/multi_x7ukof.jpg"
-        alt="Multi Explore"
       />
       <Project
         title="Gojek UI"
         desc="This is the UI of Gojek super app website in indonesia. Built with
             ReactJS and CSS."
-        image="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807322/gojek_pelvtu.jpg"
+        image="/assets/gojek.jpg"
         alt="gojek"
       />
     </motion.div>
