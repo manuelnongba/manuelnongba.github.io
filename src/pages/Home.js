@@ -19,8 +19,8 @@ const Home = () => {
           </p>
           <br />
           <p>
-            I am currently building real-time tools for Elliot Cloud - Bosonit
-            infrastructure."
+            I am currently building real-time tools for Elliot Cloud smart
+            cities infrastructure to increase productivity and profitability."
           </p>
         </div>
       </div>
