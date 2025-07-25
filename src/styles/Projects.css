@@ -67,24 +67,36 @@ a:visited {
   color: rgb(232, 103, 103);
 }
 
-@media (max-width: 59em) {
-  .projects img {
-    width: 60rem;
-    height: 30rem;
+@media (max-width: 900px) {
+  .project {
+    flex-direction: column;
+    gap: 4rem;
+    align-items: stretch;
+  }
+  .project-description {
+    padding: 0 2rem;
+    font-size: 1.2rem;
+  }
+  .projects img,
+  .project img {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
   }
 }
 
-@media (max-width: 26em) {
-  .project {
-    flex-direction: column;
+@media (max-width: 600px) {
+  .projects {
+    margin-top: 8rem;
+    gap: 4rem;
   }
-
   .project-description {
-    padding: 0 4rem;
+    padding: 0 1rem;
+    font-size: 1rem;
   }
-
+  .projects img,
   .project img {
-    width: 45rem;
-    height: 25rem;
+    max-width: 100%;
+    height: auto;
   }
 }

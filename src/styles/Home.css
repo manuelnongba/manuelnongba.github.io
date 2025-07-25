@@ -36,7 +36,6 @@ body {
 }
 
 .about {
-  font-family: 'Quicksand', sans-serif;
   max-width: 65rem;
   text-align: justify;
   background-color: #e9ecef;
@@ -132,12 +131,26 @@ body {
   margin: 1rem 1rem;
 }
 
+@media (max-width: 900px) {
+  .me {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .about {
+    font-size: 1.5rem;
+    padding: 1.5rem 1rem;
+  }
+}
+
 @media (max-width: 750px) {
   .stack {
     flex-direction: column;
     margin: 8rem 0 0 0;
   }
-
+  .stack-header {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
   .images-contact span {
     display: none;
   }
@@ -158,8 +171,8 @@ body {
 @media (max-width: 500px) {
   .stack-images {
     display: grid;
-    grid-template-columns: repeat(4, 11rem);
-    grid-template-rows: repeat(3, 12rem);
+    grid-template-columns: repeat(3, 11rem);
+
     align-items: center;
     justify-items: center;
   }
