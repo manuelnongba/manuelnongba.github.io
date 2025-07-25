@@ -87,7 +87,7 @@ a:visited {
 
 @media (max-width: 600px) {
   .projects {
-    margin-top: 8rem;
+    margin-top: 11rem;
     gap: 4rem;
   }
   .project-description {

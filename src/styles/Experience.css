@@ -1,9 +1,6 @@
 .experiences {
   font-size: 1.4rem;
-
-  margin-top: 10rem;
-  padding: 0 2rem;
-
+  margin-top: 11rem;
   display: grid;
   justify-items: center;
   row-gap: 8rem;
@@ -72,7 +69,7 @@
 
 @media (max-width: 59em) {
   .experience {
-    width: 90%;
+    width: 100%;
     padding: 3rem;
   }
 }
