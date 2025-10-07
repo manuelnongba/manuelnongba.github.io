@@ -122,14 +122,13 @@
   </g>
 
   <!-- labels for left-to-right flow -->
-  <text x="180" y="40" class="small">Ingress</text>
-  <text x="340" y="40" class="small">Processing</text>
-  <text x="720" y="40" class="small">AI Services</text>
+  <text x="180" y="47" class="small">Ingress</text>
+  <text x="340" y="47" class="small">Processing</text>
+  <text x="720" y="47" class="small">AI Services</text>
 
   <!-- footer small legend -->
   <g transform="translate(600,320)">
     <rect x="0" y="0" width="340" height="120" rx="12" fill="#fff" stroke="#eef2ff"/>
-    <text x="18" y="28" class="svc" font-size="13">Legend</text>
     <text x="18" y="50" class="meta">Gateway — handles routing</text>
     <text x="18" y="68" class="meta">Auth — token, identity, safety checks</text>
     <text x="18" y="86" class="meta">Converter — video to audio (MP3)</text>

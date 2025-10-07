@@ -11,27 +11,27 @@ const Experience = () => {
       exit={{ opacity: 0 }}
     >
       <div className="experience">
-        <h3>Bosonit </h3>
-        <p>Full-Stack Developer (Elliot Cloud - Smart cities)</p>
+        <h3>Bosonit (Elliot Cloud)</h3>
+        <p>Full-Stack Developer </p>
         <p>Spain</p>
         <p>Nov 2024 - Present</p>
         <img src="/assets/bosonit.jpg" alt="Bosonit" />
         <p>
-          I build tools to monitor IoT devices & smart city infrastructure
-          through a dedicated software platform & use real-time data to improve
-          how cities function.
+          I build tools to control and monitor IoT devices & smart city
+          infrastructure through a dedicated software platform & use real-time
+          data to improve water systems and cities.
         </p>
       </div>
       <div className="experience">
-        <h3>Axon Information Systems</h3>
-        <p>Software Developer</p>
+        <h3>Spagad Technologies (Axon Info Systems)</h3>
+        <p>Software Systems Developer</p>
         <p>Accra, Ghana</p>
         <p>Feb 2022 - Nov 2024</p>
         <img src="/assets/axon.jpg" alt="Axon Information Systems" />
         <p>
           I worked on maintaining a comprehensive enterprise application that
-          serves as the backbone of tax administration for the ghana revenue
-          authority.
+          serves as the backbone of tax administration for the Ghana Revenue
+          Authority.
         </p>
       </div>
       <div className="experience">
@@ -40,7 +40,7 @@ const Experience = () => {
         <p>Accra, Ghana</p>
         <p>Sept 2020 - Dec 2021</p>
         <img src="/assets/coa.png" alt="Judicial Service logo" />
-        <p>I worked on filing & bail executions tools & infrastructure.</p>
+        <p>I worked on filing and bail executions tools & infrastructure.</p>
       </div>
     </motion.div>
   );

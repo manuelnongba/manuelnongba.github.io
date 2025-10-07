@@ -31,7 +31,7 @@ transcription and AI translation; implemented Gateway, Auth, Converter, Transcri
 
       <Project
         title="ByteBridge"
-        desc="A desktop collaborative code editor that enables real-time pair programming and collaborative coding sessions. Features include live cursor tracking, instant code synchronization, and secure peer-to-peer connections for collaboration between developers."
+        desc="A desktop collaborative code editor that enables real-time pair programming and collaborative coding sessions. Features include live cursor tracking and instant code synchronization"
         github="https://github.com/manuelnongba/bytebridge"
         image="/assets/bytebridge.png"
         alt="ByteBridge"

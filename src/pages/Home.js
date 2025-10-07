@@ -14,13 +14,9 @@ const Home = () => {
         <img src="/assets/icons/me.png" alt="my bitmoji" />
         <div className="about">
           <p>
-            Hey there! I’m a computer programmer who loves turning complex
-            problems into practical, data-driven solutions.
-            <br />
-            <br />
-            Over the years, I’ve worked on projects in taxation, water systems,
-            and smart city tech, helping governments and businesses boost
-            efficiency and transparency.
+            I’m a computer programmer and over the years, I’ve worked on
+            projects in taxation, water systems, and smart city tech, helping
+            governments and businesses boost efficiency and transparency.
             <br />
             <br />
             Right now, I’m building software at Elliot Cloud that helps cities
@@ -33,14 +29,15 @@ const Home = () => {
         <div className="stack-images images">
           <div>
             <img src="/assets/icons/c++.svg" alt="C++" />
+            <p>C++</p>
           </div>
           <div>
             <img src="/assets/icons/js.svg" alt="javascript" />
             <p>JavaScript</p>
           </div>
           <div>
-            <img src="/assets/icons/typescript.svg" alt="typescript" />
-            <p>TypeScript</p>
+            <img src="/assets/icons/golang.svg" alt="golang" />
+            <p>Golang</p>
           </div>
           <div>
             <img src="/assets/icons/sql.png" alt="sql" />
