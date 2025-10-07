@@ -30,7 +30,24 @@
 }
 
 .project-description p {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.tool-tag {
+  background: rgba(0, 0, 0, 0.06);
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .project a {

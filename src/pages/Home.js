@@ -14,13 +14,17 @@ const Home = () => {
         <img src="/assets/icons/me.png" alt="my bitmoji" />
         <div className="about">
           <p>
-            "I'm a computer programmer building robust, scalable systems across
-            public and smart city domains.
-          </p>
-          <br />
-          <p>
-            I am currently building real-time tools for Elliot Cloud smart
-            cities infrastructure to increase productivity and profitability."
+            Hey there! I’m a computer programmer who loves turning complex
+            problems into practical, data-driven solutions.
+            <br />
+            <br />
+            Over the years, I’ve worked on projects in taxation, water systems,
+            and smart city tech, helping governments and businesses boost
+            efficiency and transparency.
+            <br />
+            <br />
+            Right now, I’m building software at Elliot Cloud that helps cities
+            and water systems run smarter through data and automation.
           </p>
         </div>
       </div>

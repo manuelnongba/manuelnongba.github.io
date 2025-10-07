@@ -1,7 +1,7 @@
 import '../styles/Projects.css';
 import React from 'react';
 
-const Project = ({ title, desc, website, github, image, alt }) => {
+const Project = ({ title, desc, website, github, image, alt, tools = [] }) => {
   return (
     <div className="project">
       <div className="project-img">
@@ -11,6 +11,13 @@ const Project = ({ title, desc, website, github, image, alt }) => {
         <h2>{title}</h2>
         <br />
         <p>{desc}</p>
+        <div className="tools-list">
+          {tools.map((tool, index) => (
+            <span key={index} className="tool-tag">
+              {tool}
+            </span>
+          ))}
+        </div>
         {website || github ? (
           <div className="links">
             {website ? (

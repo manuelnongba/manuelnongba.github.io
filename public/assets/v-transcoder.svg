@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" role="img" aria-label="Microservices pipeline for video to mp3 conversion, transcription and translation">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6fbff"/>
+      <stop offset="1" stop-color="#eef6ff"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .card { rx:12; ry:12; fill:#fff; stroke:#e0e7ff; stroke-width:1; filter:url(#soft) }
+      .svc { font: 600 13px/1 "Inter", system-ui, Arial; fill:#0f172a }
+      .meta { font: 500 12px/1 "Inter", system-ui, Arial; fill:#475569 }
+      .small { font: 500 11px/1 "Inter", system-ui, Arial; fill:#6b7280 }
+      .arrow { fill:#60a5fa }
+      .line { stroke:#c7ddff; stroke-width:3; fill:none; marker-end:url(#arrowhead) }
+      .cluster { fill:none; stroke:#93c5fd; stroke-dasharray:6 6; stroke-width:2 }
+    </style>
+
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 z" fill="#60a5fa" />
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- cluster / container motif -->
+  <g transform="translate(40,40)">
+    <rect x="10" y="10" width="920" height="440" rx="18" ry="18" fill="#ffffff" stroke="#dbeafe"/>
+    <g class="cluster">
+      <rect x="36" y="36" width="864" height="392" rx="14" ry="14"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="60" y="38" class="svc" font-size="16">Video → MP3 pipeline · Speech-to-text · AI Translation (containerized microservices)</text>
+
+  <!-- Gateway -->
+  <g transform="translate(60,90)">
+    <rect class="card" x="0" y="0" width="120" height="72"/>
+    <!-- door icon -->
+    <rect x="14" y="14" width="18" height="44" rx="3" fill="#eef2ff"/>
+    <rect x="38" y="14" width="36" height="44" rx="3" fill="#fff" stroke="#e6eefc"/>
+    <circle cx="66" cy="36" r="2.5" fill="#0f172a"/>
+    <text x="60" y="46" class="small" text-anchor="middle" fill="#0f172a" font-weight="600">Gateway</text>
+  </g>
+
+  <!-- Auth -->
+  <g transform="translate(210,90)">
+    <rect class="card" x="0" y="0" width="120" height="72"/>
+    <!-- lock icon -->
+    <rect x="36" y="22" width="48" height="34" rx="6" fill="#fff" stroke="#e6eefc"/>
+    <path d="M54 22 v-8 a12 12 0 0 1 24 0 v8" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="60" cy="38" r="3" fill="#0f172a"/>
+    <text x="60" y="66" class="small" text-anchor="middle">Auth</text>
+  </g>
+
+  <!-- Converter (video -> mp3) -->
+  <g transform="translate(360,66)">
+    <rect class="card" x="0" y="0" width="140" height="104"/>
+    <!-- video icon -->
+    <rect x="12" y="16" width="48" height="40" rx="6" fill="#fff" stroke="#fde68a"/>
+    <polygon points="28,36 28,24 44,30" fill="#f59e0b"/>
+    <!-- mp3 icon -->
+    <path d="M94 28 v28 a6 6 0 0 0 6 6 h0 v0" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="110" cy="48" r="6" fill="#ef4444"/>
+    <text x="70" y="84" class="small" text-anchor="middle">Converter</text>
+    <text x="70" y="98" class="meta" text-anchor="middle">video → mp3</text>
+  </g>
+
+  <!-- Transcriber -->
+  <g transform="translate(540,66)">
+    <rect class="card" x="0" y="0" width="140" height="104"/>
+    <!-- speech bubble / text -->
+    <rect x="18" y="18" width="100" height="52" rx="8" fill="#fff" stroke="#e6eefc"/>
+    <path d="M36 66 l-8 10 v-10 z" fill="#fff"/>
+    <line x1="34" y1="32" x2="112" y2="32" stroke="#0f172a" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="34" y1="44" x2="92" y2="44" stroke="#0f172a" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <text x="70" y="84" class="small" text-anchor="middle">Transcriber</text>
+    <text x="70" y="98" class="meta" text-anchor="middle">speech → text</text>
+  </g>
+
+  <!-- Translator -->
+  <g transform="translate(720,66)">
+    <rect class="card" x="0" y="0" width="140" height="104"/>
+    <!-- globe + arrows -->
+    <circle cx="70" cy="40" r="22" fill="#fff" stroke="#e6eefc"/>
+    <path d="M70 20 a20 20 0 0 1 0 40 a20 20 0 0 1 0 -40" fill="none" stroke="#10b981" stroke-width="2"/>
+    <path d="M94 40 q6 -6 10 -2 q-4 4 -10 2 z" fill="#10b981"/>
+    <text x="70" y="84" class="small" text-anchor="middle">Translator</text>
+    <text x="70" y="98" class="meta" text-anchor="middle">AI translation</text>
+  </g>
+
+  <!-- Notification -->
+  <g transform="translate(420,210)">
+    <rect class="card" x="0" y="0" width="120" height="72"/>
+    <!-- bell -->
+    <path d="M60 28 a14 14 0 0 0 -14 14 v6 h28 v-6 a14 14 0 0 0 -14 -14z" fill="#fff" stroke="#fde68a"/>
+    <circle cx="60" cy="58" r="4" fill="#f97316"/>
+    <text x="60" y="66" class="small" text-anchor="middle">Notification</text>
+  </g>
+
+  <!-- Auth & Gateway connections -->
+  <path d="M180 126 L210 126" class="line"/>
+  <path d="M330 126 L360 126" class="line"/>
+  <path d="M500 126 L540 126" class="line"/>
+  <path d="M680 126 L720 126" class="line"/>
+
+  <!-- Down arrow from Converter to Notification -->
+  <path d="M430 170 L480 170 L480 196" class="line"/>
+
+  <!-- small container / docker icon bottom-left -->
+  <g transform="translate(60,320)">
+    <rect x="0" y="0" width="120" height="72" rx="10" fill="#f8fafc" stroke="#e6eefc"/>
+    <rect x="8" y="10" width="104" height="40" rx="8" fill="#fff" stroke="#e6eefc"/>
+    <rect x="18" y="18" width="16" height="8" rx="2" fill="#bfdbfe"/>
+    <rect x="40" y="18" width="16" height="8" rx="2" fill="#bfdbfe"/>
+    <rect x="62" y="18" width="16" height="8" rx="2" fill="#bfdbfe"/>
+    <text x="60" y="56" class="small" text-anchor="middle">Containers</text>
+    <text x="60" y="68" class="meta" text-anchor="middle">Kubernetes / Docker</text>
+  </g>
+
+  <!-- labels for left-to-right flow -->
+  <text x="180" y="40" class="small">Ingress</text>
+  <text x="340" y="40" class="small">Processing</text>
+  <text x="720" y="40" class="small">AI Services</text>
+
+  <!-- footer small legend -->
+  <g transform="translate(600,320)">
+    <rect x="0" y="0" width="340" height="120" rx="12" fill="#fff" stroke="#eef2ff"/>
+    <text x="18" y="28" class="svc" font-size="13">Legend</text>
+    <text x="18" y="50" class="meta">Gateway — handles routing</text>
+    <text x="18" y="68" class="meta">Auth — token, identity, safety checks</text>
+    <text x="18" y="86" class="meta">Converter — video to audio (MP3)</text>
+    <text x="18" y="104" class="meta">Transcriber — STT; Translator — model-based translation</text>
+  </g>
+</svg>
