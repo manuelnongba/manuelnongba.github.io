@@ -1,16 +1,11 @@
 import '../styles/Projects.css';
 import React from 'react';
-import { motion } from 'framer-motion';
+
 import Project from '../components/Project';
 
 const Projects = () => {
   return (
-    <motion.div
-      className="projects"
-      initial={{ opacity: 0.3 }}
-      animate={{ opacity: 1, transition: { duration: 0.8 } }}
-      exit={{ opacity: 0 }}
-    >
+    <section className="projects">
       <Project
         title="V-Transcoder"
         desc="Designed and implemented a containerized microservices platform for video → MP3 conversion, speech-to-text
@@ -76,7 +71,7 @@ data in OpenSearch and is visualized through Kibana."
         alt="Multi Explore"
         tools={['React']}
       />
-    </motion.div>
+    </section>
   );
 };
 

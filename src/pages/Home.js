@@ -1,15 +1,9 @@
 import '../styles/Home.css';
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const Home = () => {
   return (
-    <motion.div
-      className="home-container"
-      initial={{ opacity: 0.3 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      exit={{ opacity: 0 }}
-    >
+    <section className="home-container">
       <div className="me">
         <img src="/assets/icons/me.png" alt="my bitmoji" />
         <div className="about">
@@ -63,7 +57,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </section>
   );
 };
 

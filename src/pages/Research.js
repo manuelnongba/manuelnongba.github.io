@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Research.css';
-import { motion } from 'framer-motion';
 
 const Research = () => {
   const projectInfo =
@@ -10,12 +9,7 @@ const Research = () => {
     'Proper inventory handling is one of the most important aspects of a commercial business. This suite provides the features to perform any basic task required in a pharmacy. This research also provides a deep insight of what health care is going to look like in the future and takes a look at the drawbacks of healthcare at present.';
 
   return (
-    <motion.div
-      className="research"
-      initial={{ opacity: 0.3 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      exit={{ opacity: 0 }}
-    >
+    <section className="research">
       <section>
         <div>
           <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>
@@ -51,7 +45,7 @@ const Research = () => {
           </div>
         </div>
       </section>
-    </motion.div>
+    </section>
   );
 };
 

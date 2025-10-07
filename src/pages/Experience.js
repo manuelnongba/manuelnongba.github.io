@@ -1,15 +1,9 @@
 import React from 'react';
 import '../styles/Experience.css';
-import { motion } from 'framer-motion';
 
 const Experience = () => {
   return (
-    <motion.div
-      className="experiences"
-      initial={{ opacity: 0.3 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      exit={{ opacity: 0 }}
-    >
+    <section className="experiences">
       <div className="experience">
         <h3>Bosonit (Elliot Cloud)</h3>
         <p>Full-Stack Developer </p>
@@ -42,7 +36,7 @@ const Experience = () => {
         <img src="/assets/coa.png" alt="Judicial Service logo" />
         <p>I worked on filing and bail executions tools & infrastructure.</p>
       </div>
-    </motion.div>
+    </section>
   );
 };
 
