@@ -45,7 +45,7 @@ data in OpenSearch and is visualized through Kibana."
 
       <Project
         title="233 Rooms"
-        desc="A location-based platform for finding available rooms and apartments for rent. Users can discover nearby accommodations, view detailed listings, and connect with property owners based on their current location."
+        desc="A location-based platform for finding available rooms, apartments and houses for rent or for sale. Users can discover nearby accommodations, view detailed listings, and connect with property owners based on their current location."
         website="https://233rooms.vercel.app/"
         image="/assets/233rooms.jpg"
         alt="233 Rooms"
