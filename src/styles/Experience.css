@@ -4,6 +4,7 @@
   display: grid;
   justify-items: center;
   row-gap: 8rem;
+  column-gap: 2rem;
 }
 
 .experience {
@@ -67,26 +68,14 @@
   left: 0;
 }
 
-@media (max-width: 59em) {
-  .experience {
-    width: 100%;
-    padding: 3rem;
+@media (max-width: 758px) {
+  .experiences {
+    margin-top: 14rem;
   }
-}
 
-@media (max-width: 26em) {
   .experience {
     width: 95%;
-    padding: 2rem;
+    padding: 3rem;
     font-size: 1.2rem;
-  }
-
-  .experience h3 {
-    font-size: 2rem;
-  }
-
-  .experience img {
-    width: 10rem;
-    height: 10rem;
   }
 }

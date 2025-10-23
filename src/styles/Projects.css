@@ -84,24 +84,34 @@ a:visited {
   color: rgb(232, 103, 103);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .project {
     flex-direction: column;
     gap: 4rem;
-    align-items: stretch;
+    align-items: flex-start;
+    justify-content: center;
   }
+
+  .projects img,
+  .project img {
+    width: 95%;
+    height: auto;
+    margin: 0 1rem;
+  }
+
   .project-description {
     padding: 0 2rem;
     font-size: 1.2rem;
   }
-  .projects img,
-  .project img {
-    width: 100%;
-    max-width: 40rem;
-    height: auto;
+
+  .project .links,
+  .icon-inner {
+    font-size: 1.35rem;
+
+    /* margin-bottom: 1rem; */
   }
 }
-
+/* 
 @media (max-width: 600px) {
   .projects {
     margin-top: 11rem;
@@ -116,4 +126,8 @@ a:visited {
     max-width: 100%;
     height: auto;
   }
-}
+
+  .project {
+    /* margin: 0 2rem; */
+
+/* }? */
