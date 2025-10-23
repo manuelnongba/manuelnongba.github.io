@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import '../styles/Home.css';
 import React from 'react';
 
@@ -8,13 +10,14 @@ const Home = () => {
         <img src="/assets/icons/me.png" alt="my bitmoji" />
         <div className="about">
           <p>
-            I’m a computer programmer and over the years, I’ve worked on
-            projects in taxation, water systems, and smart city tech, helping
-            governments and businesses boost efficiency and transparency.
+            I’m a computer programmer with experience in microservices, IoT
+            systems, and information systems. I have a track record of helping
+            governments and businesses improve efficiency and transparency
+            through projects in taxation, water systems, and smart cities.
             <br />
-            <br />
-            Right now, I’m building software at Elliot Cloud that helps cities
-            and water systems run smarter through data and automation.
+            <br />I am currently expanding my skills in Reinforcement Learning
+            and building software at Elliot Cloud that helps cities and water
+            systems run smarter through data and automation.
           </p>
         </div>
       </div>
@@ -54,6 +57,33 @@ const Home = () => {
           <div>
             <img src="/assets/icons/angular.svg" alt="react" />
             <p>Angular</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="explore">
+        <div className="explore-header">explore my work</div>
+        <div className="explore-cards">
+          <div className="explore-card">
+            <div className="explore-card-header">Career</div>
+            <div className="explore-card-body">
+              My work has helped governments, hospitals and businesses.
+              Currently, I'm focused on building smart solutions for cities and
+              water systems at Elliot Cloud.
+            </div>
+            <Link to="/experience" className="explore-card-link">
+              View my career
+            </Link>
+          </div>
+          <div className="explore-card">
+            <div className="explore-card-header">Projects</div>
+            <div className="explore-card-body">
+              I have worked on a variety of projects and I am always looking for
+              new and exciting projects to work on.
+            </div>
+            <Link to="/projects" className="explore-card-link">
+              View my projects
+            </Link>
           </div>
         </div>
       </div>

@@ -35,8 +35,8 @@ const Header = () => {
       </NavLink>
       <div className="right-nav" ref={ref}>
         <NavLink to="/">about</NavLink>
-        <NavLink to="/projects">projects</NavLink>
         <NavLink to="/experience">career</NavLink>
+        <NavLink to="/projects">projects</NavLink>
         <NavLink to="/writings">writings</NavLink>
         {/* <NavLink to="research">Research</NavLink> */}
       </div>
