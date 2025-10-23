@@ -65,7 +65,7 @@ body {
 
 .stack-images {
   display: grid;
-  grid-template-columns: repeat(3, 15rem);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
 }
@@ -76,7 +76,8 @@ body {
   justify-content: center;
 
   height: 13rem;
-  width: 15rem;
+  width: 100%;
+  max-width: 15rem;
 }
 
 .stack-images div:nth-child(odd) {
@@ -185,6 +186,11 @@ body {
   .explore {
     display: flex;
   }
+
+  .images img {
+    width: 40%;
+    height: auto;
+  }
 }
 
 @media (max-width: 750px) {
@@ -212,54 +218,6 @@ body {
     flex-direction: column;
   }
 }
-
-@media (max-width: 500px) {
-  .stack-images {
-    display: grid;
-    grid-template-columns: repeat(3, 11rem);
-
-    align-items: center;
-    justify-items: center;
-  }
-
-  .stack-images div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 12rem;
-    width: 11.5rem;
-  }
-
-  .images img {
-    height: 4rem;
-    width: 4rem;
-    margin-right: 6px;
-  }
-}
-
-@media (max-width: 350px) {
-  .stack-images {
-    display: grid;
-    grid-template-columns: repeat(3, 11rem);
-    grid-template-rows: repeat(auto, 10rem);
-    align-items: center;
-    justify-items: center;
-  }
-}
-/* @media (max-width: 26em) {
-  .me {
-    flex-direction: column;
-  }
-
-  .stack {
-    flex-direction: column;
-  }
-
-  .images-contact span {
-    display: none;
-  }
-} */
 
 @media (max-width: 900px) {
   .explore-cards {
