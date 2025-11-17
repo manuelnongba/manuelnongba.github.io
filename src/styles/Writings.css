@@ -230,7 +230,8 @@
   color: #333;
 }
 
-.writing-article ul {
+.writing-article ul,
+.writing-article ol {
   margin: 16px 0;
   padding-left: 24px;
 }

@@ -4,6 +4,12 @@ import '../styles/Writings.css';
 
 const writingsList = [
   {
+    title: 'Safe, Resource‑Efficient RL for Networked IoT Systems',
+    slug: 'safe-resource-efficient-rl-iot',
+    description:
+      'Design patterns, algorithms, and deployment guidance for safe, low-resource RL on networked IoT devices.',
+  },
+  {
     title: 'Reinforcement Learning: Insights from David Silver',
     slug: 'reinforcement-learning-david-silver',
     description:
