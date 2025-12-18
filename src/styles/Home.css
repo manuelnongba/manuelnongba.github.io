@@ -38,6 +38,7 @@ body {
 }
 
 .about {
+  font-family: 'Lora', 'Georgia', serif;
   max-width: 65rem;
   text-align: justify;
   background-color: #e9ecef;
@@ -46,7 +47,11 @@ body {
   letter-spacing: 0.5px;
   border: 0.1rem solid #e9ecef;
   border-radius: 1rem;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1); */
+}
+
+.highlight {
+  font-style: italic;
 }
 
 .images img {
@@ -157,7 +162,7 @@ body {
   background-color: #e9ecef;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1); */
   display: flex;
   flex-direction: column;
   gap: 1rem;
