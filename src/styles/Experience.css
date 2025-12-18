@@ -1,10 +1,10 @@
 .experiences {
   font-size: 1.4rem;
-  margin-top: 11rem;
   display: grid;
   justify-items: center;
   row-gap: 8rem;
   column-gap: 2rem;
+  min-height: calc(100vh - 170px);
 }
 
 .experience {
@@ -68,11 +68,38 @@
   left: 0;
 }
 
-@media (max-width: 758px) {
-  .experiences {
-    margin-top: 14rem;
-  }
+.experience-header {
+  max-width: 700px;
+  margin: 48px auto;
+  padding: 48px 24px;
+  background: transparent;
+  margin-bottom: 0rem !important;
+  font-family: 'Quicksand', sans-serif;
+}
 
+.experience-header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #111;
+  text-align: left;
+  line-height: 1.2;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.experience-header h1::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: #111;
+  border-radius: 2px;
+}
+
+@media (max-width: 758px) {
   .experience {
     width: 95%;
     padding: 3rem;

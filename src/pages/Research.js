@@ -9,43 +9,48 @@ const Research = () => {
     'Proper inventory handling is one of the most important aspects of a commercial business. This suite provides the features to perform any basic task required in a pharmacy. This research also provides a deep insight of what health care is going to look like in the future and takes a look at the drawbacks of healthcare at present.';
 
   return (
-    <section className="research">
-      <section>
-        <div>
-          <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>
-            Pharma Pro Research
-          </h2>
-          <div className="research-cover">
-            <div className="research-img">
-              {/* <img
+    <>
+      <div className="writings-list-container">
+        <h1>Research</h1>
+      </div>
+      <section className="research">
+        <section>
+          <div>
+            <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>
+              Pharma Pro Research
+            </h2>
+            <div className="research-cover">
+              <div className="research-img">
+                {/* <img
               src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807379/research_f7y41r.png"
               alt="pharmacy research"
             /> */}
-              <p>{projectInfo}</p>
+                <p>{projectInfo}</p>
+              </div>
             </div>
-          </div>
 
-          <div className="research-intro">
-            <div className="research-img">
-              <img
-                src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807378/research2_xbdahu.png"
-                alt="pharmacy research"
-                className="research-intro"
-              />
-              <p>{resrchInfo}</p>
+            <div className="research-intro">
+              <div className="research-img">
+                <img
+                  src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807378/research2_xbdahu.png"
+                  alt="pharmacy research"
+                  className="research-intro"
+                />
+                <p>{resrchInfo}</p>
+              </div>
+            </div>
+            <div className="research-intro">
+              <div className="research-img">
+                <img
+                  src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807378/research3_ysxqng.png"
+                  alt="pharmacy research"
+                />
+              </div>
             </div>
           </div>
-          <div className="research-intro">
-            <div className="research-img">
-              <img
-                src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1672807378/research3_ysxqng.png"
-                alt="pharmacy research"
-              />
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
-    </section>
+    </>
   );
 };
 

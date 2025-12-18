@@ -3,8 +3,6 @@
   flex-direction: column;
   align-items: center;
   gap: 8rem;
-
-  margin-top: 15rem;
 }
 
 .projects img {
@@ -82,6 +80,36 @@ a:visited {
 
 .project-description .acc {
   color: rgb(232, 103, 103);
+}
+
+.projects-header {
+  max-width: 1200px;
+  margin: 48px auto;
+  padding: 48px 24px;
+  background: transparent;
+  margin-bottom: 0rem !important;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.projects-header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #111;
+  text-align: left;
+  line-height: 1.2;
+  position: relative;
+}
+
+.projects-header h1::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: #111;
+  border-radius: 2px;
 }
 
 @media (max-width: 768px) {

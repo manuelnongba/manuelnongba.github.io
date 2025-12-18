@@ -8,6 +8,7 @@ const Footer = () => {
         marginTop: '50px',
         padding: '15px 0',
         borderTop: '1px solid rgb(218, 215, 215)',
+        width: '100%',
       }}
     >
       <div className="images-contact">

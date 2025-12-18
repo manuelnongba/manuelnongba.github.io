@@ -7,6 +7,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  height: 72px;
+  overflow: hidden;
 }
 
 .sticky {
@@ -24,7 +27,7 @@
 }
 
 .main {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .main:hover {
@@ -70,6 +73,12 @@
 
 .icon-mobile-nav[name='close-outline'] {
   display: none;
+}
+
+@media (max-width: 1050px) {
+  .main {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 59em) {
