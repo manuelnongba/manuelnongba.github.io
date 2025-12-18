@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashRouter } from 'react-router-dom';
-import AnimatedRoutes from './components/AnimatedRoutes';
+import PagesRoutes from './components/PagesRoutes';
 import Footer from './components/footer';
 import Header from './components/Header';
 import ScrollToTop from './components/ScrollToTop';
@@ -12,7 +12,7 @@ const App = () => {
         <ScrollToTop />
         <div>
           <Header />
-          <AnimatedRoutes />
+          <PagesRoutes />
           <Footer />
         </div>
       </HashRouter>

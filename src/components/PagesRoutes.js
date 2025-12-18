@@ -5,8 +5,9 @@ import Projects from '../pages/Projects';
 import Experience from '../pages/Experience';
 import Writings from '../pages/Writings';
 import RLWriting from '../pages/RLWriting';
+import SafeRLIoT from '../pages/SafeRLIoT';
 
-const AnimatedRoutes = () => {
+const PagesRoutes = () => {
   const location = useLocation();
 
   return (
@@ -20,8 +21,13 @@ const AnimatedRoutes = () => {
         exact
         element={<RLWriting />}
       />
+      <Route
+        path="/writings/safe-resource-efficient-rl-iot"
+        exact
+        element={<SafeRLIoT />}
+      />
     </Routes>
   );
 };
 
-export default AnimatedRoutes;
+export default PagesRoutes;
