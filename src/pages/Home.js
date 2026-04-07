@@ -16,69 +16,19 @@ const Home = () => {
             governments and businesses improve efficiency and transparency
             through projects in taxation, water systems, and smart cities.
             <br /> */}
-              I am currently expanding my knowledge in
+              I am currently expanding my knowledge
               <span className="highlight"> Reinforcement Learning </span> and
               working on <span className="highlight"> IoT systems </span> at
               Elliot Cloud to helps cities and water systems operate smarter
-              through events and automation. I also build some cool stuff on my
+              through events and automation. I also build some cool stuff on
               free time.
             </p>
           </div>
         </div>
-        <div className="stack">
-          <div className="stack-header">languages and technologies</div>
-          <div className="stack-images images">
-            <div>
-              <img src="/assets/icons/c++.svg" alt="C++" />
-              <p>C++</p>
-            </div>
-            <div>
-              <img src="/assets/icons/js.svg" alt="javascript" />
-              <p>JavaScript</p>
-            </div>
-            <div>
-              <img src="/assets/icons/golang.svg" alt="golang" />
-              <p>Golang</p>
-            </div>
-            <div>
-              <img src="/assets/icons/sql.png" alt="sql" />
-            </div>
-            <div>
-              <img src="/assets/icons/python.svg" alt="python" />
-              <p>Python</p>
-            </div>
-            <div>
-              <img src="/assets/icons/nodejs.svg" alt="node js" />
-            </div>
-            <div>
-              <img src="/assets/icons/postgresql.svg" alt="PostgreSQL" />
-              <p>PostgreSQL</p>
-            </div>
-            <div>
-              <img src="/assets/icons/react.svg" alt="react" />
-              <p>React</p>
-            </div>
-            <div>
-              <img src="/assets/icons/angular.svg" alt="react" />
-              <p>Angular</p>
-            </div>
-          </div>
-        </div>
 
         <div className="explore">
-          <div className="explore-header">explore my work</div>
+          {/* <div className="explore-header">explore my work</div> */}
           <div className="explore-cards">
-            <div className="explore-card">
-              <div className="explore-card-header">Career</div>
-              <div className="explore-card-body">
-                My work has helped governments, hospitals and businesses.
-                Currently, I'm focused on building smart solutions for cities
-                and water systems at Elliot Cloud.
-              </div>
-              <Link to="/experience" className="explore-card-link">
-                View my career
-              </Link>
-            </div>
             <div className="explore-card">
               <div className="explore-card-header">Projects</div>
               <div className="explore-card-body">
