@@ -16,11 +16,11 @@ const Home = () => {
             governments and businesses improve efficiency and transparency
             through projects in taxation, water systems, and smart cities.
             <br /> */}
-              I am currently expanding my knowledge
+              I am currently expanding my knowledge in
               <span className="highlight"> Reinforcement Learning </span> and
               working on <span className="highlight"> IoT systems </span> at
               Elliot Cloud to helps cities and water systems operate smarter
-              through events and automation. I also build some cool stuff on
+              through events and automation. I also build some cool stuff on my
               free time.
             </p>
           </div>
