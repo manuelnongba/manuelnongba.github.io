@@ -15,7 +15,7 @@ const Footer = () => {
         <a href="https://github.com/manuelnongba">
           <img src="/assets/icons/github.svg" alt="github" />
         </a>
-        <a href="https://www.linkedin.com/in/emmanuel-anongba-92469019b/">
+        <a href="https://www.linkedin.com/in/emmanuel-a-92469019b/">
           <img src="/assets/icons/linkedin.svg" alt="linkedin" />
         </a>
         <a href="https://twitter.com/eacodesimba">
