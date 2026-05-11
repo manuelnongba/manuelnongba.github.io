@@ -26,8 +26,13 @@
   transition: all 0.5s;
 }
 
-.main {
-  font-size: 3.5rem;
+.main .name {
+  font-size: 3rem;
+}
+
+.main .title {
+  font-size: 2rem;
+  color: #767676;
 }
 
 .main:hover {

@@ -31,7 +31,8 @@ const Header = () => {
   return (
     <div className={`header ${open ? 'nav-open' : ''} sticky`}>
       <NavLink to="/" className="main">
-        emmanuel anongba
+        <span className="name"> emmanuel anongba</span>
+        <span className="title"> • software engineer</span>
       </NavLink>
       <div className="right-nav" ref={ref}>
         <NavLink to="/">about</NavLink>
