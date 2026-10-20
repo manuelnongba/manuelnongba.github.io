@@ -30,11 +30,12 @@ transcription and AI translation; implemented Gateway, Auth, Converter, Transcri
 
         <Project
           title="ByteBridge"
-          desc="A desktop collaborative code editor that enables real-time pair programming and collaborative coding sessions. Features include live cursor tracking and instant code synchronization"
+          desc="Built a desktop workspace for collaborative coding and debugging, with shared projects, live editing, checkpoints, and AI session catch-ups. An integrated terminal supports local AI coding tools, with disk changes reviewed before sharing."
           github="https://github.com/manuelnongba/bytebridge"
-          image="/assets/bytebridge.png"
-          alt="ByteBridge"
-          tools={['Electron', 'TypeScript']}
+          download="https://github.com/manuelnongba/bytebridge/releases/download/v1.0.0-beta.2/ByteBridge-1.0.0-beta.2-arm64.dmg"
+          image="/assets/bytebridge.svg"
+          alt="ByteBridge — collaborative coding workspace, available as a macOS beta"
+          tools={['TypeScript', 'Cloudflare']}
         />
 
         <Project

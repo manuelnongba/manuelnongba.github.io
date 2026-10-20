@@ -53,7 +53,7 @@
 }
 
 .project a:link,
-a:visited {
+.project a:visited {
   text-decoration: none;
   color: black;
   padding: 4px 6px;
@@ -67,12 +67,19 @@ a:visited {
   justify-content: space-between;
 }
 
+.project a.download-link {
+  width: auto;
+  gap: 0.6rem;
+  padding: 4px 10px;
+}
+
 .project a:hover {
   transform: scale(1.1);
 }
 
 .project .links {
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 
   margin-bottom: 1rem;

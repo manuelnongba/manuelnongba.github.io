@@ -1,7 +1,16 @@
 import '../styles/Projects.css';
 import React from 'react';
 
-const Project = ({ title, desc, website, github, image, alt, tools = [] }) => {
+const Project = ({
+  title,
+  desc,
+  website,
+  github,
+  download,
+  image,
+  alt,
+  tools = [],
+}) => {
   return (
     <div className="project">
       <div className="project-img">
@@ -18,8 +27,19 @@ const Project = ({ title, desc, website, github, image, alt, tools = [] }) => {
             </span>
           ))}
         </div>
-        {website || github ? (
+        {website || github || download ? (
           <div className="links">
+            {download ? (
+              <a
+                className="download-link"
+                href={download}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ion-icon name="download-outline"></ion-icon>
+                <span>macOS beta</span>
+              </a>
+            ) : null}
             {website ? (
               <a href={website} target="_blank" rel="noreferrer">
                 <ion-icon name="globe-outline"></ion-icon>
