@@ -37,7 +37,7 @@ const Project = ({
                 rel="noreferrer"
               >
                 <ion-icon name="download-outline"></ion-icon>
-                <span>macOS beta</span>
+                <span>macOS</span>
               </a>
             ) : null}
             {website ? (

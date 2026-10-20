@@ -32,9 +32,9 @@ transcription and AI translation; implemented Gateway, Auth, Converter, Transcri
           title="ByteBridge"
           desc="Built a desktop workspace for collaborative coding and debugging, with shared projects, live editing, checkpoints, and AI session catch-ups. An integrated terminal supports local AI coding tools, with disk changes reviewed before sharing."
           github="https://github.com/manuelnongba/bytebridge"
-          download="https://github.com/manuelnongba/bytebridge/releases/download/v1.0.0-beta.2/ByteBridge-1.0.0-beta.2-arm64.dmg"
+          download="https://github.com/manuelnongba/bytebridge/releases"
           image="/assets/bytebridge.svg"
-          alt="ByteBridge — collaborative coding workspace, available as a macOS beta"
+          alt="ByteBridge — collaborative coding workspace"
           tools={['TypeScript', 'Cloudflare']}
         />
 
